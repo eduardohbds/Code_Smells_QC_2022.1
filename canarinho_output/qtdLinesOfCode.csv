@@ -1,0 +1,13 @@
+language,files,lines,blanks,comments,linesOfCode
+Java,44,4209,894,589,2726
+XML,10,443,35,17,391
+Gradle,6,195,34,0,161
+Markdown,6,340,90,0,250
+gitignore,3,38,8,8,22
+Properties File,2,8,0,0,8
+BASH,1,164,20,22,122
+Batch,1,90,24,0,66
+Plain Text,1,175,26,0,149
+Prolog,1,17,2,0,15
+YAML,1,52,7,0,45
+Total,76,5731,1140,636,3955
