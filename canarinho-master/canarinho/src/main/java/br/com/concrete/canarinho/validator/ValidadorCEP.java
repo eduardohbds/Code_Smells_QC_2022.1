@@ -16,7 +16,7 @@ public final class ValidadorCEP implements Validador {
     }
 
     public static ValidadorCEP getInstance() {
-        return SingletonHolder.INSTANCE;
+        return INSTANCE;
     }
 
     @Override
@@ -52,7 +52,5 @@ public final class ValidadorCEP implements Validador {
                 .totalmenteValido(true);
     }
 
-    private static class SingletonHolder {
-        private static final ValidadorCEP INSTANCE = new ValidadorCEP();
-    }
+    private static final ValidadorCEP INSTANCE = new ValidadorCEP();
 }

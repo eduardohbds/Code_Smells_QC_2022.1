@@ -41,7 +41,7 @@ public final class FormatadorTelefone implements Formatador {
     }
 
     static FormatadorTelefone getInstance() {
-        return SingletonHolder.INSTANCE;
+        return INSTANCE;
     }
 
     @Override
@@ -90,7 +90,5 @@ public final class FormatadorTelefone implements Formatador {
                 .length() > 10;
     }
 
-    private static class SingletonHolder {
-        private static final FormatadorTelefone INSTANCE = new FormatadorTelefone();
-    }
+    private static final FormatadorTelefone INSTANCE = new FormatadorTelefone();
 }

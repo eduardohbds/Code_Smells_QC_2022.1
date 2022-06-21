@@ -23,7 +23,7 @@ public final class ValidadorCPF implements Validador {
     }
 
     static ValidadorCPF getInstance() {
-        return SingletonHolder.INSTANCE;
+        return INSTANCE;
     }
 
     @Override
@@ -90,7 +90,5 @@ public final class ValidadorCPF implements Validador {
         return igual || valor.equals("12345678909");
     }
 
-    private static class SingletonHolder {
-        private static final ValidadorCPF INSTANCE = new ValidadorCPF();
-    }
+    private static final ValidadorCPF INSTANCE = new ValidadorCPF();
 }

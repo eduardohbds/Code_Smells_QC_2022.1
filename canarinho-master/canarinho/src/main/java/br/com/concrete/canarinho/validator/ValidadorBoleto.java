@@ -42,7 +42,7 @@ public final class ValidadorBoleto implements Validador {
     }
 
     public static ValidadorBoleto getInstance() {
-        return SingletonHolder.INSTANCE;
+        return INSTANCE;
     }
 
     @Override
@@ -159,7 +159,5 @@ public final class ValidadorBoleto implements Validador {
         return true;
     }
 
-    private static class SingletonHolder {
-        private static final ValidadorBoleto INSTANCE = new ValidadorBoleto();
-    }
+    private static final ValidadorBoleto INSTANCE = new ValidadorBoleto();
 }

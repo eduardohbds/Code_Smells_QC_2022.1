@@ -91,10 +91,9 @@ public final class FormatadorBoleto implements Formatador {
     }
 
     static FormatadorBoleto getInstance() {
-        return SingletonHolder.INSTANCE;
+        return INSTANCE;
     }
 
-    private static class SingletonHolder {
-        private static final FormatadorBoleto INSTANCE = new FormatadorBoleto();
-    }
+    private static final FormatadorBoleto INSTANCE = new FormatadorBoleto();
+    
 }

@@ -22,7 +22,7 @@ public final class ValidadorCNPJ implements Validador {
     }
 
     public static ValidadorCNPJ getInstance() {
-        return SingletonHolder.INSTANCE;
+        return INSTANCE;
     }
 
     @Override
@@ -68,7 +68,5 @@ public final class ValidadorCNPJ implements Validador {
                 .totalmenteValido(true);
     }
 
-    private static class SingletonHolder {
-        private static final ValidadorCNPJ INSTANCE = new ValidadorCNPJ();
-    }
+    private static final ValidadorCNPJ INSTANCE = new ValidadorCNPJ();
 }

@@ -19,7 +19,7 @@ public final class FormatadorLinhaDigitavel implements Formatador {
     }
 
     static FormatadorLinhaDigitavel getInstance() {
-        return SingletonHolder.INSTANCE;
+        return INSTANCE;
     }
 
     @Override
@@ -140,7 +140,5 @@ public final class FormatadorLinhaDigitavel implements Formatador {
                 .length() == 44;
     }
 
-    private static class SingletonHolder {
-        private static final FormatadorLinhaDigitavel INSTANCE = new FormatadorLinhaDigitavel();
-    }
+    private static final FormatadorLinhaDigitavel INSTANCE = new FormatadorLinhaDigitavel();
 }

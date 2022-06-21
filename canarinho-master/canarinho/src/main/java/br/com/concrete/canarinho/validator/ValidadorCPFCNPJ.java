@@ -11,7 +11,7 @@ public final class ValidadorCPFCNPJ implements Validador {
     }
 
     public static ValidadorCPFCNPJ getInstance() {
-        return SingletonHolder.INSTANCE;
+        return INSTANCE;
     }
 
     @Override
@@ -49,7 +49,5 @@ public final class ValidadorCPFCNPJ implements Validador {
         return desformatado.length() < 12;
     }
 
-    private static class SingletonHolder {
-        private static final ValidadorCPFCNPJ INSTANCE = new ValidadorCPFCNPJ();
-    }
+    private static final ValidadorCPFCNPJ INSTANCE = new ValidadorCPFCNPJ();
 }

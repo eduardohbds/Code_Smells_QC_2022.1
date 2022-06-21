@@ -9,7 +9,7 @@ public final class FormatadorCEP implements Formatador {
     }
 
     static FormatadorCEP getInstance() {
-        return SingletonHolder.INSTANCE;
+        return INSTANCE;
     }
 
     @Override
@@ -36,7 +36,5 @@ public final class FormatadorCEP implements Formatador {
         return Formatador.CEP.podeSerFormatado(value);
     }
 
-    private static class SingletonHolder {
-        private static final FormatadorCEP INSTANCE = new FormatadorCEP();
-    }
+    private static final FormatadorCEP INSTANCE = new FormatadorCEP();
 }

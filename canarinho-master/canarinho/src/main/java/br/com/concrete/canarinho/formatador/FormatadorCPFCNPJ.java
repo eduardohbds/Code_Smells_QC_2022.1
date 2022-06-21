@@ -10,7 +10,7 @@ public final class FormatadorCPFCNPJ implements Formatador {
     }
 
     static FormatadorCPFCNPJ getInstance() {
-        return SingletonHolder.INSTANCE;
+        return INSTANCE;
     }
 
     @Override
@@ -63,7 +63,5 @@ public final class FormatadorCPFCNPJ implements Formatador {
         return desformatado.length() < 12;
     }
 
-    private static class SingletonHolder {
-        private static final FormatadorCPFCNPJ INSTANCE = new FormatadorCPFCNPJ();
-    }
+    private static final FormatadorCPFCNPJ INSTANCE = new FormatadorCPFCNPJ();
 }

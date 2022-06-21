@@ -54,8 +54,8 @@ public final class FormatadorValor implements Formatador {
      */
     static FormatadorValor getInstance(boolean comSimboloReal) {
         return comSimboloReal
-                ? SingletonHolder.INSTANCE_COM_SIMBOLO
-                : SingletonHolder.INSTANCE_SEM_SIMBOLO;
+                ? INSTANCE_COM_SIMBOLO
+                : INSTANCE_SEM_SIMBOLO;
     }
 
     @Override
@@ -105,8 +105,6 @@ public final class FormatadorValor implements Formatador {
         return PADRAO_DECIMAL.matcher(value).matches();
     }
 
-    private static class SingletonHolder {
-        private static final FormatadorValor INSTANCE_SEM_SIMBOLO = new FormatadorValor(false);
-        private static final FormatadorValor INSTANCE_COM_SIMBOLO = new FormatadorValor(true);
-    }
+    private static final FormatadorValor INSTANCE_SEM_SIMBOLO = new FormatadorValor(false);
+    private static final FormatadorValor INSTANCE_COM_SIMBOLO = new FormatadorValor(true);
 }

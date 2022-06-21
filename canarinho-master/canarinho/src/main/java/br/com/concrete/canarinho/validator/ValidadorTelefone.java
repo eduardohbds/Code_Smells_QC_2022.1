@@ -11,7 +11,7 @@ public final class ValidadorTelefone implements Validador {
     }
 
     public static ValidadorTelefone getInstance() {
-        return SingletonHolder.INSTANCE;
+        return INSTANCE;
     }
 
     @Override
@@ -45,7 +45,5 @@ public final class ValidadorTelefone implements Validador {
                 .totalmenteValido(true);
     }
 
-    private static class SingletonHolder {
-        private static final ValidadorTelefone INSTANCE = new ValidadorTelefone();
-    }
+    private static final ValidadorTelefone INSTANCE = new ValidadorTelefone();
 }
