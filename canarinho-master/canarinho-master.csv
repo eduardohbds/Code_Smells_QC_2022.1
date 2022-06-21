@@ -1,0 +1,416 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclInstanceVariablePrivate,CountDeclInstanceVariableProtected,CountDeclInstanceVariablePublic,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLine_Html,CountLine_Javascript,CountLine_Php,CountLineBlank,CountLineBlank_Html,CountLineBlank_Javascript,CountLineBlank_Php,CountLineCode,CountLineCode_Javascript,CountLineCode_Php,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountLineComment_Html,CountLineComment_Javascript,CountLineComment_Php,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtDecl_Javascript,CountStmtDecl_Php,CountStmtExe,CountStmtExe_Javascript,CountStmtExe_Php,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+Package,br.com.concrete.canarinho.validator,2,2,2,1,9,1,7,0,,,,,14,6,12,,7,,32,8,,,,38,,3,12,0,23,,612,,,,142,,,,372,,,138,193,98,,,,,,,144,231,122,,,147,,,,,,,,7,7,8,6,,,2,,,,0.26,75,75,91,54
+Package,br.com.concrete.canarinho.watcher,1,1,2,1,11,1,6,3,,,,,9,0,12,,7,,43,23,,,,43,,1,9,5,28,,734,,,,146,,,,407,,,180,198,183,,,,,,,211,299,162,,,171,,,,,,,,9,9,9,5,,,3,,,,0.45,85,85,91,53
+Package,br.com.concrete.canarinho.formatador,1,1,1,1,8,1,6,0,,,,,15,6,30,,8,,44,14,,,,50,,11,11,0,28,,791,,,,168,,,,506,,,229,282,127,,,,,,,201,295,170,,,198,,,,,,,,5,5,6,3,,,2,,,,0.25,82,82,86,48
+Package,br.com.concrete.canarinho.test,1,1,1,1,13,2,10,0,,,,,9,0,0,,9,,48,0,,,,48,,0,8,0,40,,858,,,,188,,,,638,,,179,386,32,,,,,,,392,468,130,,,340,,,,,,,,3,3,3,1,,,1,,,,0.05,67,67,67,48
+File,Watchers.java,1,1,1,1,3,0,3,0,,,,,12,0,0,29,,29,31,12,,,,31,,2,0,0,29,,222,,,,42,,,,169,,,92,47,11,,,,,,,53,86,50,,,36,,,,,,,,5,5,5,1,,,1,,,,0.07,33,33,33,29
+Package,br.com.concrete.canarinho.sample.ui.model,1,1,1,1,3,0,3,0,,,,,12,0,0,,1,,31,12,,,,31,,2,0,0,29,,222,,,,42,,,,169,,,92,47,11,,,,,,,53,86,50,,,36,,,,,,,,5,5,5,1,,,1,,,,0.07,33,33,33,29
+File,BaseCanarinhoTextWatcher.java,2,2,2,1,12,1,7,3,,,,,1,0,0,12,,12,12,3,,,,12,,0,3,4,5,,188,,,,35,,,,103,,,35,54,52,,,,,,,49,74,32,,,46,,,,,,,,5,5,7,5,,,3,,,,0.50,26,26,28,18
+Public Abstract Class,br.com.concrete.canarinho.watcher.BaseCanarinhoTextWatcher,2,2,2,1,12,1,7,3,2,12,12,5,,0,0,,,,12,3,,,,12,12,0,3,4,5,,178,,,,32,,,,96,,,28,54,52,,,,,,,42,67,25,,,46,,,,,,,,5,5,7,5,,1,3,,80,75,0.54,26,26,28,18
+File,ValidadorBoleto.java,3,3,3,2,13,3,10,0,,,,,2,1,5,8,,8,7,0,,,,8,,0,5,0,3,,165,,,,40,,,,110,,,32,66,15,,,,,,,41,66,27,,,48,,,,,,,,7,7,8,6,,,1,,,,0.14,25,25,27,19
+Public Class,br.com.concrete.canarinho.validator.ValidadorBoleto,3,3,3,2,13,3,10,0,2,13,13,0,,1,4,,,,7,0,,,,8,8,0,5,0,3,,155,,,,36,,,,104,,,26,66,15,,,,,,,35,60,21,,,48,,,,,,,,7,7,8,6,,1,1,,0,0,0.14,25,25,27,19
+Package,br.com.concrete.canarinho.sample,1,1,1,1,11,2,8,0,,,,,3,0,0,,2,,23,1,,,,23,,0,2,0,21,,335,,,,82,,,,243,,,86,135,14,,,,,,,112,138,66,,,74,,,,,,,,2,2,2,1,,,1,,,,0.06,24,24,24,23
+File,BoletoBancarioTextWatcher.java,3,3,3,1,15,2,11,1,,,,,1,0,4,6,,6,6,2,,,,6,,0,2,1,3,,131,,,,27,,,,87,,,32,53,17,,,,,,,44,65,28,,,46,,,,,,,,9,9,9,3,,,3,,,,0.20,21,21,23,8
+Public Class,br.com.concrete.canarinho.watcher.BoletoBancarioTextWatcher,3,3,3,1,15,2,11,1,1,13,13,0,,0,4,,,,6,2,,,,6,18,0,2,1,3,,119,,,,23,,,,79,,,24,53,17,,,,,,,36,57,20,,,46,,,,,,,,9,9,9,3,,2,3,,75,75,0.22,21,21,23,8
+File,DemoWatchersInstrumentationTest.java,1,1,1,1,11,2,8,0,,,,,2,0,0,21,,21,21,1,,,,21,,0,2,0,19,,307,,,,76,,,,221,,,69,131,14,,,,,,,101,124,54,,,72,,,,,,,,2,2,2,1,,,1,,,,0.06,22,22,22,21
+File,DigitoPara.java,1,1,1,1,15,2,7,6,,,,,2,0,0,11,,11,11,11,,,,11,,0,3,0,8,,250,,,,41,,,,103,,,38,53,106,,,,,,,63,87,42,,,51,,,,,,,,6,6,6,1,,,1,,,,1.03,21,21,21,11
+Package,br.com.concrete.canarinho,1,1,1,1,15,2,7,6,,,,,2,0,0,,1,,11,11,,,,11,,0,3,0,8,,250,,,,41,,,,103,,,38,53,106,,,,,,,63,87,42,,,51,,,,,,,,6,6,6,1,,,1,,,,1.03,21,21,21,11
+Public Class,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest,1,1,1,1,12,2,9,0,1,8,8,0,,0,0,,,,18,1,,,,18,18,0,2,0,16,,271,,,,71,,,,190,,,38,131,14,,,,,,,71,94,24,,,72,,,,,,,,1,1,1,1,,1,0,,100,100,0.07,18,18,18,18
+File,FormatadorLinhaDigitavel.java,2,2,2,1,19,3,14,2,,,,,2,1,1,6,,6,5,0,,,,6,,1,1,0,4,,146,,,,32,,,,101,,,50,72,23,,,,,,,54,68,43,,,56,,,,,,,,5,5,6,1,,,2,,,,0.23,13,13,16,6
+File,ValidadorCPF.java,2,2,3,1,12,2,9,0,,,,,2,1,2,5,,5,4,0,,,,5,,1,2,0,2,,96,,,,24,,,,62,,,23,35,10,,,,,,,25,39,21,,,26,,,,,,,,4,4,5,4,,,2,,,,0.16,12,12,16,8
+Public Class,br.com.concrete.canarinho.formatador.FormatadorLinhaDigitavel,2,2,2,1,19,3,14,2,2,8,8,0,,1,0,,,,5,0,,,,6,6,1,1,0,4,,141,,,,30,,,,98,,,47,72,23,,,,,,,51,65,40,,,56,,,,,,,,5,5,6,1,,1,2,,0,0,0.23,13,13,16,6
+Public Class,br.com.concrete.canarinho.validator.ValidadorCPF,2,2,3,1,12,2,9,0,2,10,10,0,,1,1,,,,4,0,,,,5,5,1,2,0,2,,88,,,,21,,,,57,,,19,35,10,,,,,,,21,35,17,,,26,,,,,,,,4,4,5,4,,1,2,,0,0,0.18,12,12,16,8
+File,ValorMonetarioWatcher.java,1,1,1,1,10,1,5,3,,,,,2,0,0,9,,9,9,5,,,,9,,1,1,0,7,,134,,,,26,,,,73,,,32,31,35,,,,,,,34,49,27,,,25,,,,,,,,4,4,4,3,,,2,,,,0.48,14,14,14,11
+File,FormatadorBase.java,2,2,2,1,10,1,7,1,,,,,1,0,0,6,,6,6,4,,,,6,,1,1,0,4,,92,,,,23,,,,57,,,23,22,12,,,,,,,23,36,15,,,22,,,,,,,,3,3,3,1,,,1,,,,0.21,12,12,13,6
+File,ValidadorCPFCNPJ.java,2,2,2,1,7,1,6,0,,,,,2,1,1,5,,5,4,0,,,,5,,0,2,0,3,,55,,,,14,,,,40,,,14,16,1,,,,,,,14,26,12,,,16,,,,,,,,3,3,5,3,,,1,,,,0.03,10,10,13,7
+Class,br.com.concrete.canarinho.formatador.FormatadorBase,2,2,2,1,10,1,7,1,2,5,5,0,,0,0,,,,6,4,,,,6,6,1,1,0,4,,87,,,,21,,,,54,,,20,22,12,,,,,,,20,33,12,,,22,,,,,,,,3,3,3,1,,1,1,,50,50,0.22,12,12,13,6
+Public Class,br.com.concrete.canarinho.validator.ValidadorCPFCNPJ,2,2,2,1,7,1,6,0,2,10,10,0,,1,0,,,,4,0,,,,5,5,0,2,0,3,,48,,,,11,,,,36,,,11,16,1,,,,,,,11,23,9,,,16,,,,,,,,3,3,5,3,,1,1,,0,0,0.03,10,10,13,7
+File,FormatadorCPFCNPJ.java,1,1,1,1,6,0,5,0,,,,,2,1,1,7,,7,6,0,,,,7,,1,2,0,4,,69,,,,15,,,,50,,,17,21,4,,,,,,,15,30,12,,,20,,,,,,,,3,3,3,3,,,1,,,,0.08,13,13,13,9
+Public Class,br.com.concrete.canarinho.formatador.FormatadorCPFCNPJ,1,1,1,1,6,0,5,0,2,5,5,0,,1,0,,,,6,0,,,,7,7,1,2,0,4,,66,,,,14,,,,48,,,16,21,4,,,,,,,14,29,11,,,20,,,,,,,,3,3,3,3,,1,1,,0,0,0.08,13,13,13,9
+File,FormatadorValor.java,2,2,2,1,8,1,6,1,,,,,2,1,6,6,,6,5,1,,,,6,,1,1,0,4,,112,,,,20,,,,77,,,37,40,15,,,,,,,39,51,29,,,30,,,,,,,,3,3,3,1,,,1,,,,0.19,12,12,12,6
+Public Class,br.com.concrete.canarinho.formatador.FormatadorValor,2,2,2,1,8,1,6,1,2,12,12,0,,1,4,,,,5,1,,,,6,6,1,1,0,4,,100,,,,17,,,,68,,,28,40,15,,,,,,,30,42,20,,,30,,,,,,,,3,3,3,1,,1,1,,66,66,0.22,12,12,12,6
+File,FormatadorBoleto.java,1,1,1,1,6,1,5,0,,,,,2,1,7,7,,7,6,0,,,,7,,1,2,0,4,,100,,,,25,,,,68,,,28,37,7,,,,,,,20,34,18,,,23,,,,,,,,2,2,2,1,,,1,,,,0.10,12,12,12,7
+File,FormatadorTelefone.java,1,1,1,1,6,0,5,0,,,,,2,1,7,7,,7,6,0,,,,7,,1,2,0,4,,96,,,,21,,,,72,,,28,43,3,,,,,,,20,34,18,,,23,,,,,,,,2,2,2,1,,,1,,,,0.04,12,12,12,7
+File,MascaraNumericaTextWatcher.java,1,1,1,1,11,1,5,4,,,,,2,0,0,7,,7,7,7,,,,7,,0,1,0,6,,120,,,,22,,,,56,,,25,22,42,,,,,,,31,43,24,,,21,,,,,,,,3,3,4,1,,,1,,,,0.75,10,10,12,7
+Public Class,br.com.concrete.canarinho.formatador.FormatadorBoleto,1,1,1,1,6,1,5,0,2,6,6,0,,1,6,,,,6,0,,,,7,7,1,2,0,4,,96,,,,23,,,,66,,,26,37,7,,,,,,,18,32,16,,,23,,,,,,,,2,2,2,1,,1,1,,0,0,0.11,12,12,12,7
+Public Class,br.com.concrete.canarinho.formatador.FormatadorTelefone,1,1,1,1,6,0,5,0,2,7,7,0,,1,6,,,,6,0,,,,7,7,1,2,0,4,,92,,,,19,,,,70,,,26,43,3,,,,,,,18,32,16,,,23,,,,,,,,2,2,2,1,,1,1,,0,0,0.04,12,12,12,7
+Public Static Class,br.com.concrete.canarinho.DigitoPara.Builder,1,1,1,1,15,1,5,8,1,7,7,0,,0,0,,,,7,5,,,,7,7,0,0,0,7,,127,,,,17,,,,47,,,13,24,63,,,,,,,25,38,15,,,25,,,,,,,,3,3,3,1,,1,1,,77,77,1.34,11,11,11,7
+Package,br.com.concrete.canarinho.test.watcher,1,1,1,1,9,1,8,0,,,,,3,0,0,,2,,11,3,,,,11,,0,0,0,11,,167,,,,35,,,,130,,,60,62,2,,,,,,,81,94,48,,,51,,,,,,,,1,1,1,1,,,0,,,,0.02,11,11,11,11
+Public Class,br.com.concrete.canarinho.watcher.ValorMonetarioWatcher,1,1,1,1,11,1,7,2,2,10,10,0,,0,0,,,,6,3,,,,6,6,1,1,0,4,,122,,,,22,,,,65,,,24,31,35,,,,,,,26,41,19,,,25,,,,,,,,4,4,4,3,,1,2,,66,55,0.54,11,11,11,8
+File,ValidadorCNPJ.java,2,2,2,1,11,2,8,0,,,,,2,1,2,4,,4,3,0,,,,4,,0,1,0,3,,74,,,,19,,,,49,,,21,27,6,,,,,,,19,29,18,,,19,,,,,,,,3,3,4,3,,,1,,,,0.12,8,8,10,6
+Public Class,br.com.concrete.canarinho.DigitoPara,2,2,2,1,15,3,10,1,1,6,6,0,,0,0,,,,4,6,,,,4,4,0,3,0,1,,240,,,,38,,,,96,,,31,53,106,,,,,,,56,80,35,,,51,,,,,,,,6,6,6,1,,1,1,,50,50,1.10,10,10,10,4
+Public Class,br.com.concrete.canarinho.validator.ValidadorCNPJ,2,2,2,1,11,2,8,0,2,10,10,0,,1,1,,,,3,0,,,,4,4,0,1,0,3,,66,,,,16,,,,44,,,17,27,6,,,,,,,15,25,14,,,19,,,,,,,,3,3,4,3,,1,1,,0,0,0.14,8,8,10,6
+File,TesteFormatadorCPFCNPJ.java,1,1,1,1,22,4,17,1,,,,,1,0,0,6,,6,6,0,,,,6,,0,2,0,4,,159,,,,34,,,,117,,,20,86,8,,,,,,,86,97,15,,,82,,,,,,,,3,3,3,1,,,1,,,,0.07,10,10,10,6
+File,ValidadorTelefone.java,1,1,2,1,8,1,6,0,,,,,2,1,1,4,,4,3,0,,,,4,,0,1,0,3,,51,,,,13,,,,37,,,14,17,1,,,,,,,12,21,12,,,12,,,,,,,,3,3,4,1,,,1,,,,0.03,7,7,10,4
+Public Class,br.com.concrete.canarinho.test.TesteFormatadorCPFCNPJ,1,1,1,1,22,4,17,1,1,4,4,0,,0,0,,,,6,0,,,,6,6,0,2,0,4,,146,,,,30,,,,108,,,11,86,8,,,,,,,78,89,7,,,82,,,,,,,,3,3,3,1,,1,1,,0,0,0.07,10,10,10,6
+Public Class,br.com.concrete.canarinho.validator.ValidadorTelefone,1,1,2,1,8,1,6,0,2,8,8,0,,1,0,,,,3,0,,,,4,4,0,1,0,3,,45,,,,10,,,,34,,,11,17,1,,,,,,,9,18,9,,,12,,,,,,,,3,3,4,1,,1,1,,0,0,0.03,7,7,10,4
+File,TesteFormatadorCEP.java,1,1,1,1,10,1,8,0,,,,,1,0,0,6,,6,6,0,,,,6,,0,2,0,4,,88,,,,19,,,,65,,,20,35,4,,,,,,,37,47,15,,,32,,,,,,,,2,2,2,1,,,1,,,,0.06,9,9,9,6
+File,TesteFormatadorCNPJ.java,1,1,1,1,12,1,9,0,,,,,1,0,0,6,,6,6,0,,,,6,,0,2,0,4,,98,,,,21,,,,73,,,20,43,4,,,,,,,45,55,15,,,40,,,,,,,,2,2,2,1,,,1,,,,0.05,9,9,9,6
+File,TesteFormatadorCPF.java,1,1,1,1,13,2,11,0,,,,,1,0,0,6,,6,6,0,,,,6,,0,2,0,4,,108,,,,23,,,,81,,,20,51,4,,,,,,,53,63,15,,,48,,,,,,,,2,2,2,1,,,1,,,,0.05,9,9,9,6
+File,ValidadorCEP.java,1,1,2,1,8,1,6,0,,,,,2,1,1,4,,4,3,0,,,,4,,0,1,0,3,,58,,,,15,,,,37,,,14,17,6,,,,,,,12,21,12,,,12,,,,,,,,3,3,4,1,,,1,,,,0.16,7,7,9,4
+Public Class,br.com.concrete.canarinho.test.TesteFormatadorCEP,1,1,1,1,10,1,8,0,1,4,4,0,,0,0,,,,6,0,,,,6,6,0,2,0,4,,75,,,,15,,,,56,,,11,35,4,,,,,,,29,39,7,,,32,,,,,,,,2,2,2,1,,1,1,,0,0,0.07,9,9,9,6
+Public Class,br.com.concrete.canarinho.test.TesteFormatadorCNPJ,1,1,1,1,12,1,9,0,1,4,4,0,,0,0,,,,6,0,,,,6,6,0,2,0,4,,85,,,,17,,,,64,,,11,43,4,,,,,,,37,47,7,,,40,,,,,,,,2,2,2,1,,1,1,,0,0,0.06,9,9,9,6
+Public Class,br.com.concrete.canarinho.test.TesteFormatadorCPF,1,1,1,1,13,2,11,0,1,4,4,0,,0,0,,,,6,0,,,,6,6,0,2,0,4,,95,,,,19,,,,72,,,11,51,4,,,,,,,45,55,7,,,48,,,,,,,,2,2,2,1,,1,1,,0,0,0.06,9,9,9,6
+Public Class,br.com.concrete.canarinho.validator.ValidadorCEP,1,1,2,1,8,1,6,0,2,8,8,0,,1,0,,,,3,0,,,,4,4,0,1,0,3,,52,,,,12,,,,34,,,11,17,6,,,,,,,9,18,9,,,12,,,,,,,,3,3,4,1,,1,1,,0,0,0.18,7,7,9,4
+Protected Method,br.com.concrete.canarinho.watcher.BoletoBancarioTextWatcher.efetuaValidacao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,41,,,,10,,,,31,,,5,24,0,,,,11,9,1,15,24,5,,,22,,,9,9,9,1,7,,,,,0,,3,0,,,0.00,9,9,9,1
+File,TesteFormatadorTelefone.java,2,2,2,1,13,2,11,0,,,,,1,0,0,4,,4,4,0,,,,4,,0,0,0,4,,77,,,,17,,,,60,,,18,33,0,,,,,,,29,38,13,,,25,,,,,,,,2,2,2,1,,,1,,,,0.00,8,8,8,4
+Public Class,br.com.concrete.canarinho.test.TesteFormatadorTelefone,2,2,2,1,13,2,11,0,1,3,3,0,,0,0,,,,4,0,,,,4,4,0,0,0,4,,64,,,,13,,,,51,,,9,33,0,,,,,,,21,30,5,,,25,,,,,,,,2,2,2,1,,1,1,,0,0,0.00,8,8,8,4
+File,TesteFormatadorValor.java,1,1,1,1,10,1,9,0,,,,,1,0,0,6,,6,6,0,,,,6,,0,0,0,6,,88,,,,16,,,,72,,,22,41,0,,,,,,,45,54,15,,,39,,,,,,,,2,2,2,1,,,1,,,,0.00,8,8,8,6
+Package,br.com.concrete.canarinho.sample.ui.fragment,1,1,1,1,9,1,8,0,,,,,3,1,0,,3,,5,9,,,,6,,0,0,0,6,,125,,,,27,,,,98,,,55,35,0,,,,,,,69,80,51,,,32,,,,,,,,2,2,2,1,,,1,,,,0.00,8,8,8,6
+Public Class,br.com.concrete.canarinho.test.TesteFormatadorValor,1,1,1,1,10,1,9,0,1,4,4,0,,0,0,,,,6,0,,,,6,6,0,0,0,6,,75,,,,12,,,,63,,,13,41,0,,,,,,,37,46,7,,,39,,,,,,,,2,2,2,1,,1,1,,0,0,0.00,8,8,8,6
+Private Method,br.com.concrete.canarinho.validator.ValidadorBoleto.validaTributo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,29,,,,7,,,,20,,,3,13,2,,,,6,6,1,8,14,3,,,12,,,7,7,8,6,5,,,,,5,,1,5,,,0.10,7,7,8,6
+File,FormatadorCEP.java,1,1,1,1,3,0,3,0,,,,,2,1,1,6,,6,5,0,,,,6,,1,1,0,4,,42,,,,9,,,,30,,,14,8,3,,,,,,,8,17,10,,,8,,,,,,,,2,2,2,1,,,1,,,,0.10,7,7,7,6
+File,TesteValidadores.java,1,1,1,1,14,2,10,1,,,,,1,0,0,7,,7,7,0,,,,7,,0,0,0,7,,132,,,,29,,,,92,,,23,61,11,,,,,,,57,65,15,,,50,,,,,,,,1,1,1,1,,,0,,,,0.12,7,7,7,7
+Public Class,br.com.concrete.canarinho.formatador.FormatadorCEP,1,1,1,1,3,0,3,0,2,3,3,0,,1,0,,,,5,0,,,,6,6,1,1,0,4,,39,,,,8,,,,28,,,13,8,3,,,,,,,7,16,9,,,8,,,,,,,,2,2,2,1,,1,1,,0,0,0.11,7,7,7,6
+Public Class,br.com.concrete.canarinho.test.TesteValidadores,1,1,1,1,14,2,10,1,1,2,2,0,,0,0,,,,7,0,,,,7,7,0,0,0,7,,120,,,,25,,,,84,,,15,61,11,,,,,,,50,58,8,,,50,,,,,,,,1,1,1,1,,1,0,,0,0,0.13,7,7,7,7
+Public Static Class,br.com.concrete.canarinho.watcher.MascaraNumericaTextWatcher.Builder,1,1,1,1,11,0,4,6,1,5,5,0,,0,0,,,,4,3,,,,4,4,0,0,0,4,,60,,,,7,,,,23,,,8,9,30,,,,,,,11,17,8,,,9,,,,,,,,2,2,4,1,,1,1,,66,66,1.30,5,5,7,4
+Private Method,br.com.concrete.canarinho.watcher.BaseCanarinhoTextWatcher.trataRemocaoDeCaracter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,27,,,,5,,,,16,,,5,11,6,,,,5,6,1,8,12,5,,,9,,,5,5,7,1,0,,,,,0,,2,0,,,0.38,5,5,7,1
+Public Static Class,br.com.concrete.canarinho.sample.ui.model.Watchers.EventoDeValidacaoBoleto,3,3,3,1,9,2,6,0,2,3,3,0,,0,0,,,,2,0,,,,2,6,1,0,0,1,,30,,,,7,,,,18,,,6,9,5,,,,,,,5,12,3,,,9,,,,,,,,5,5,5,1,,2,1,,0,0,0.28,6,6,6,2
+File,BoletoTextWatcherTest.java,1,1,1,1,9,1,8,0,,,,,2,0,0,6,,6,6,2,,,,6,,0,0,0,6,,83,,,,18,,,,63,,,31,28,2,,,,,,,40,47,25,,,25,,,,,,,,1,1,1,1,,,0,,,,0.03,6,6,6,6
+File,CPFCNPJTextWatcher.java,1,1,1,1,7,0,4,2,,,,,1,0,3,4,,4,4,2,,,,4,,0,1,0,3,,59,,,,12,,,,32,,,20,13,15,,,,,,,19,25,19,,,12,,,,,,,,3,3,3,1,,,1,,,,0.47,6,6,6,4
+File,Validador.java,1,1,1,1,6,0,3,3,,,,,2,0,0,6,,8,8,8,,,,8,,2,0,0,6,,113,,,,17,,,,37,,,20,15,59,,,,,,,21,29,20,,,14,,,,,,,,1,1,1,1,,,0,,,,1.59,6,6,6,6
+Class,br.com.concrete.canarinho.validator.Validador.ResultadoParcial,1,1,1,1,6,0,3,3,1,1,1,0,,0,0,,,,6,3,,,,6,6,0,0,0,6,,54,,,,7,,,,26,,,10,10,21,,,,,,,12,19,10,,,9,,,,,,,,1,1,1,1,,1,0,,66,66,0.81,6,6,6,6
+Public Class,br.com.concrete.canarinho.watcher.CPFCNPJTextWatcher,1,1,1,1,7,0,4,2,1,11,11,0,,0,3,,,,4,2,,,,4,16,0,1,0,3,,48,,,,9,,,,24,,,13,13,15,,,,,,,12,18,12,,,12,,,,,,,,3,3,3,1,,2,1,,75,75,0.62,6,6,6,4
+Public Method,br.com.concrete.canarinho.DigitoPara.calcula,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,41,,,,10,,,,24,,,7,18,7,,,,11,16,1,16,22,9,,,16,,,6,6,6,1,1,,,,,0,,1,0,,,0.29,6,6,6,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorLinhaDigitavel.desformata,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,50,,,,12,,,,37,,,15,31,6,,,,8,8,1,21,26,13,,,25,,,5,5,6,1,1,,,,,0,,2,0,,,0.16,5,5,6,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorLinhaDigitavel.formata,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,52,,,,11,,,,39,,,21,35,7,,,,7,4,1,26,29,20,,,27,,,4,4,6,1,1,,,,,0,,1,0,,,0.18,4,4,6,1
+Public Method,br.com.concrete.canarinho.validator.ValidadorBoleto.ehValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,24,,,,6,,,,18,,,2,13,0,,,,11,8,1,6,10,2,,,9,,,5,5,6,1,1,,,,,0,,1,0,,,0.00,5,5,6,1
+Public Method,br.com.concrete.canarinho.watcher.BoletoBancarioTextWatcher.afterTextChanged,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,30,,,,5,,,,20,,,4,14,5,,,,11,7,1,10,15,4,,,13,,,6,6,6,3,2,,,,,2,,2,2,,,0.25,6,6,6,3
+File,TelefoneTextWatcher.java,1,1,1,1,8,1,5,1,,,,,1,0,3,3,,3,3,2,,,,3,,0,1,0,2,,55,,,,12,,,,31,,,20,14,12,,,,,,,19,24,18,,,12,,,,,,,,3,3,3,1,,,1,,,,0.39,5,5,5,3
+File,ValorMonetarioWatcherTest.java,1,1,1,1,10,1,9,0,,,,,1,0,0,5,,5,5,1,,,,5,,0,0,0,5,,84,,,,17,,,,67,,,29,34,0,,,,,,,41,47,23,,,26,,,,,,,,1,1,1,1,,,0,,,,0.00,5,5,5,5
+Public Enum Type,br.com.concrete.canarinho.sample.ui.model.Watchers,1,1,1,1,2,0,2,0,1,4,4,9,,0,0,,,,7,11,,,,7,7,1,0,0,6,,203,,,,38,,,,154,,,77,47,11,,,,,,,38,71,35,,,36,,,,,,,,1,1,1,1,,1,0,,,,0.07,5,5,5,5
+Public Class,br.com.concrete.canarinho.test.watcher.BoletoTextWatcherTest,1,1,1,1,9,1,8,0,1,7,7,0,,0,0,,,,5,2,,,,5,5,0,0,0,5,,63,,,,12,,,,49,,,17,28,2,,,,,,,27,34,12,,,25,,,,,,,,1,1,1,1,,1,0,,19,19,0.04,5,5,5,5
+Public Class,br.com.concrete.canarinho.test.watcher.ValorMonetarioWatcherTest,1,1,1,1,10,1,9,0,1,8,8,0,,0,0,,,,5,1,,,,5,5,0,0,0,5,,64,,,,11,,,,53,,,15,34,0,,,,,,,28,34,10,,,26,,,,,,,,1,1,1,1,,1,0,,0,0,0.00,5,5,5,5
+Public Class,br.com.concrete.canarinho.watcher.MascaraNumericaTextWatcher,1,1,1,1,11,2,6,2,1,10,10,0,,0,0,,,,3,4,,,,3,15,0,1,0,2,,110,,,,18,,,,50,,,19,22,42,,,,,,,25,37,18,,,21,,,,,,,,3,3,3,1,,2,1,,41,16,0.84,5,5,5,3
+Public Class,br.com.concrete.canarinho.watcher.TelefoneTextWatcher,1,1,1,1,8,1,5,1,1,11,11,0,,0,3,,,,3,2,,,,3,15,0,1,0,2,,45,,,,9,,,,24,,,13,14,12,,,,,,,12,17,11,,,12,,,,,,,,3,3,3,1,,2,1,,66,66,0.50,5,5,5,3
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.EventoDeValidacaoBoleto.invalido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,,,,5,,,,10,,,1,8,0,,,,1,5,1,4,9,1,,,8,,,5,5,5,1,3,,,,,0,,1,0,,,0.00,5,5,5,1
+Private Method,br.com.concrete.canarinho.validator.ValidadorBoleto.validaNormal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,,,,5,,,,15,,,1,9,0,,,,5,5,1,5,10,1,,,9,,,5,5,5,5,4,,,,,4,,1,4,,,0.00,5,5,5,5
+Public Method,br.com.concrete.canarinho.validator.ValidadorCPF.ehValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,24,,,,7,,,,17,,,6,12,0,,,,8,4,1,9,13,6,,,12,,,4,4,5,4,3,,,,,3,,1,3,,,0.00,4,4,5,4
+Private Method,br.com.concrete.canarinho.validator.ValidadorCPF.estaNaListaNegra,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,,,,3,,,,9,,,2,5,0,,,,3,3,0,5,8,3,,,5,,,3,3,5,1,0,,,,,0,,2,0,,,0.00,3,3,5,1
+Public Method,br.com.concrete.canarinho.validator.ValidadorCPFCNPJ.ehValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,,,,2,,,,9,,,1,5,0,,,,7,3,0,3,6,1,,,5,,,3,3,5,3,2,,,,,2,,1,2,,,0.00,3,3,5,3
+Private Method,br.com.concrete.canarinho.watcher.BaseCanarinhoTextWatcher.carregarMascara,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,29,,,,7,,,,20,,,5,14,4,,,,6,6,1,12,17,6,,,13,,,5,5,5,5,3,,,,,3,,3,3,,,0.20,5,5,5,5
+Protected Method,br.com.concrete.canarinho.watcher.BaseCanarinhoTextWatcher.efetuaValidacao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,28,,,,4,,,,17,,,1,12,7,,,,9,5,1,7,12,1,,,11,,,5,5,5,3,4,,,,,2,,1,2,,,0.41,5,5,5,3
+Private Method,br.com.concrete.canarinho.watcher.BoletoBancarioTextWatcher.verificaFiltro,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,,,,0,,,,7,,,1,4,1,,,,3,3,0,2,5,1,,,4,,,3,3,5,1,1,,,,,0,,1,0,,,0.14,3,3,5,1
+File,TesteFormatadorBOLETO.java,1,1,1,1,11,2,8,0,,,,,1,0,0,4,,4,4,0,,,,4,,0,0,0,4,,67,,,,19,,,,47,,,17,25,1,,,,,,,22,27,12,,,15,,,,,,,,1,1,1,1,,,0,,,,0.02,4,4,4,4
+File,WatcherFragment.java,1,1,1,1,9,1,8,0,,,,,1,1,0,3,,3,2,4,,,,3,,0,0,0,3,,56,,,,11,,,,45,,,25,17,0,,,,,,,33,38,23,,,17,,,,,,,,2,2,2,1,,,1,,,,0.00,4,4,4,3
+File,WatchersPagerAdapter.java,1,1,1,1,3,0,3,0,,,,,1,0,0,4,,4,4,1,,,,4,,0,0,0,4,,30,,,,7,,,,23,,,14,5,0,,,,,,,10,15,11,,,5,,,,,,,,1,1,1,1,,,0,,,,0.00,4,4,4,4
+Anonymous Class,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.paste.(Anon_1),1,1,1,1,6,0,4,1,1,9,9,0,,0,0,,,,3,0,,,,3,3,0,0,0,3,,24,,,,3,,,,18,,,1,14,3,,,,,,,5,9,4,,,6,,,,,,,,2,2,2,1,,2,1,,0,0,0.17,4,4,4,3
+Package,br.com.concrete.canarinho.sample.ui.adapter,1,1,1,1,3,0,3,0,,,,,1,0,0,,1,,4,1,,,,4,,0,0,0,4,,30,,,,7,,,,23,,,14,5,0,,,,,,,10,15,11,,,5,,,,,,,,1,1,1,1,,,0,,,,0.00,4,4,4,4
+Public Class,br.com.concrete.canarinho.sample.ui.adapter.WatchersPagerAdapter,1,1,1,1,3,0,3,0,1,5,5,0,,0,0,,,,4,1,,,,4,4,0,0,0,4,,23,,,,5,,,,18,,,9,5,0,,,,,,,5,10,6,,,5,,,,,,,,1,1,1,1,,2,0,,25,25,0.00,4,4,4,4
+Public Class,br.com.concrete.canarinho.sample.ui.fragment.WatcherFragment,1,1,1,1,9,1,8,0,1,12,12,0,,1,0,,,,2,4,,,,3,4,0,0,0,3,,39,,,,7,,,,32,,,12,17,0,,,,,,,20,25,10,,,17,,,,,,,,2,2,2,1,,3,1,,41,33,0.00,4,4,4,3
+Public Static Class,br.com.concrete.canarinho.sample.ui.model.Watchers.SampleEventoDeValidacao,1,1,1,1,4,0,4,0,2,4,4,1,,0,0,,,,4,1,,,,4,4,0,0,0,4,,31,,,,5,,,,22,,,9,8,4,,,,,,,6,11,6,,,5,,,,,,,,1,1,1,1,,1,0,,0,0,0.18,4,4,4,4
+Public Class,br.com.concrete.canarinho.test.TesteFormatadorBOLETO,1,1,1,1,11,2,8,0,1,2,2,0,,0,0,,,,4,0,,,,4,4,0,0,0,4,,55,,,,15,,,,39,,,9,25,1,,,,,,,15,20,5,,,15,,,,,,,,1,1,1,1,,1,0,,0,0,0.03,4,4,4,4
+Public Method,br.com.concrete.canarinho.validator.ValidadorCEP.ehValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,,,,4,,,,15,,,2,11,0,,,,8,4,1,4,7,2,,,6,,,3,3,4,1,1,,,,,0,,1,0,,,0.00,3,3,4,1
+Public Method,br.com.concrete.canarinho.validator.ValidadorCNPJ.ehValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,,,,6,,,,14,,,6,10,0,,,,7,3,0,8,11,6,,,10,,,3,3,4,3,2,,,,,2,,1,2,,,0.00,3,3,4,3
+Public Method,br.com.concrete.canarinho.validator.ValidadorCNPJ.ehValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,,,,4,,,,15,,,2,11,0,,,,8,4,1,4,7,2,,,6,,,3,3,4,1,1,,,,,0,,1,0,,,0.00,3,3,4,1
+Public Method,br.com.concrete.canarinho.validator.ValidadorCPF.ehValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,,,,4,,,,15,,,2,11,0,,,,8,4,1,4,7,2,,,6,,,3,3,4,1,1,,,,,0,,1,0,,,0.00,3,3,4,1
+Public Method,br.com.concrete.canarinho.validator.ValidadorCPFCNPJ.ehValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,,,,2,,,,9,,,1,5,0,,,,7,4,1,3,6,1,,,5,,,3,3,4,1,1,,,,,0,,1,0,,,0.00,3,3,4,1
+Public Method,br.com.concrete.canarinho.validator.ValidadorTelefone.ehValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,,,,2,,,,7,,,2,4,0,,,,4,2,0,3,5,2,,,4,,,2,2,4,1,1,,,,,0,,1,0,,,0.00,2,2,4,1
+Public Method,br.com.concrete.canarinho.validator.ValidadorTelefone.ehValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,,,,3,,,,15,,,2,11,0,,,,8,4,1,4,7,2,,,6,,,3,3,4,1,1,,,,,0,,1,0,,,0.00,3,3,4,1
+Public Method,br.com.concrete.canarinho.watcher.MascaraNumericaTextWatcher.Builder.build,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,,,,2,,,,6,,,1,3,5,,,,4,2,0,2,4,1,,,3,,,2,2,4,1,0,,,,,0,,1,0,,,0.83,2,2,4,1
+Public Method,br.com.concrete.canarinho.watcher.ValorMonetarioWatcher.afterTextChanged,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,25,,,,5,,,,18,,,5,13,2,,,,9,4,1,6,10,3,,,9,,,4,4,4,3,2,,,,,2,,2,2,,,0.11,4,4,4,3
+File,CEPTextWatcher.java,1,1,1,1,10,2,5,2,,,,,1,0,2,2,,2,2,2,,,,2,,0,0,0,2,,47,,,,12,,,,25,,,16,11,10,,,,,,,15,19,14,,,9,,,,,,,,2,2,2,1,,,1,,,,0.40,3,3,3,2
+File,CanarinhoValorMonetarioWatcherFragment.java,1,1,1,1,13,2,11,0,,,,,1,0,0,2,,2,2,4,,,,2,,0,0,0,2,,56,,,,12,,,,44,,,24,17,0,,,,,,,31,35,22,,,14,,,,,,,,2,2,2,1,,,1,,,,0.00,3,3,3,2
+File,TesteFormatadorLinhaDigitavel.java,1,1,1,1,6,1,5,0,,,,,1,0,0,3,,3,3,0,,,,3,,0,0,0,3,,41,,,,10,,,,31,,,19,11,0,,,,,,,18,22,15,,,9,,,,,,,,1,1,1,1,,,0,,,,0.00,3,3,3,3
+Public Class,br.com.concrete.canarinho.sample.ui.fragment.CanarinhoValorMonetarioWatcherFragment,1,1,1,1,13,2,11,0,1,14,14,0,,0,0,,,,2,4,,,,2,3,0,0,0,2,,38,,,,8,,,,30,,,10,17,0,,,,,,,17,21,8,,,14,,,,,,,,2,2,2,1,,3,1,,25,12,0.00,3,3,3,2
+Public Class,br.com.concrete.canarinho.test.TesteFormatadorLinhaDigitavel,1,1,1,1,6,1,5,0,1,3,3,0,,0,0,,,,3,0,,,,3,3,0,0,0,3,,28,,,,6,,,,22,,,10,11,0,,,,,,,10,14,7,,,9,,,,,,,,1,1,1,1,,1,0,,0,0,0.00,3,3,3,3
+Public Class,br.com.concrete.canarinho.watcher.CEPTextWatcher,1,1,1,1,10,2,5,2,1,9,9,0,,0,2,,,,2,2,,,,2,14,0,0,0,2,,38,,,,9,,,,19,,,10,11,10,,,,,,,9,13,8,,,9,,,,,,,,2,2,2,1,,2,1,,50,50,0.53,3,3,3,2
+Public Static Class,br.com.concrete.canarinho.watcher.ValorMonetarioWatcher.Builder,1,1,1,1,8,0,3,5,1,1,1,0,,0,0,,,,3,2,,,,3,3,0,0,0,3,,37,,,,4,,,,15,,,6,5,18,,,,,,,7,11,6,,,5,,,,,,,,1,1,1,1,,1,0,,33,33,1.20,3,3,3,3
+Public Method,br.com.concrete.canarinho.DigitoPara.Builder.build,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,22,,,,3,,,,9,,,1,5,10,,,,5,4,1,3,6,1,,,5,,,3,3,3,1,0,,,,,0,,1,0,,,1.11,3,3,3,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorBase.desformata,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,13,,,,3,,,,10,,,2,6,0,,,,4,4,1,4,7,2,,,6,,,3,3,3,1,1,,,,,0,,1,0,,,0.00,3,3,3,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorBase.formata,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,12,,,,3,,,,9,,,1,5,0,,,,4,4,1,3,6,1,,,5,,,3,3,3,1,1,,,,,0,,1,0,,,0.00,3,3,3,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorCPFCNPJ.podeSerFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,,,,2,,,,9,,,1,5,0,,,,3,3,0,3,6,1,,,5,,,3,3,3,3,2,,,,,2,,1,2,,,0.00,3,3,3,3
+Public Method,br.com.concrete.canarinho.formatador.FormatadorValor.desformata,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,19,,,,2,,,,16,,,4,11,1,,,,9,4,1,7,10,4,,,7,,,3,3,3,1,1,,,,,0,,1,0,,,0.06,3,3,3,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorCPFCNPJ.consegueDizerSeEstaFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,34,,,,4,,,,28,,,1,24,2,,,,4,4,1,20,23,1,,,22,,,3,3,3,1,2,,,,,0,,1,0,,,0.07,3,3,3,1
+Private Method,br.com.concrete.canarinho.validator.ValidadorBoleto.validaBloco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,21,,,,4,,,,16,,,4,11,1,,,,9,3,0,6,9,3,,,7,,,3,3,3,3,2,,,,,2,,1,2,,,0.06,3,3,3,3
+Public Method,br.com.concrete.canarinho.validator.ValidadorCEP.ehValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,,,,3,,,,7,,,2,4,0,,,,4,2,0,3,5,2,,,4,,,2,2,3,1,1,,,,,0,,1,0,,,0.00,2,2,3,1
+Public Method,br.com.concrete.canarinho.watcher.CPFCNPJTextWatcher.afterTextChanged,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,12,,,,3,,,,9,,,3,6,0,,,,5,2,0,5,7,3,,,6,,,3,3,3,1,1,,,,,0,,1,0,,,0.00,3,3,3,1
+Public Method,br.com.concrete.canarinho.watcher.MascaraNumericaTextWatcher.afterTextChanged,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,,,,4,,,,10,,,2,6,2,,,,6,3,0,4,7,2,,,6,,,3,3,3,1,1,,,,,0,,1,0,,,0.20,3,3,3,1
+Public Method,br.com.concrete.canarinho.watcher.TelefoneTextWatcher.afterTextChanged,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,13,,,,4,,,,9,,,3,6,0,,,,5,2,0,5,7,3,,,6,,,3,3,3,1,1,,,,,0,,1,0,,,0.00,3,3,3,1
+File,MainActivity.java,2,2,2,1,19,4,15,0,,,,,1,0,0,1,,1,1,0,,,,1,,0,0,0,1,,37,,,,9,,,,27,,,16,12,1,,,,,,,20,23,15,,,12,,,,,,,,2,2,2,1,,,1,,,,0.04,2,2,2,1
+Package,br.com.concrete.canarinho.sample.ui.activity,2,2,2,1,19,4,15,0,,,,,1,0,0,,1,,1,0,,,,1,,0,0,0,1,,37,,,,9,,,,27,,,16,12,1,,,,,,,20,23,15,,,12,,,,,,,,2,2,2,1,,,1,,,,0.04,2,2,2,1
+Public Class,br.com.concrete.canarinho.sample.ui.activity.MainActivity,2,2,2,1,19,4,15,0,1,7,7,0,,0,0,,,,1,0,,,,1,1,0,0,0,1,,24,,,,5,,,,18,,,7,12,1,,,,,,,11,14,6,,,12,,,,,,,,2,2,2,1,,2,1,,0,0,0.06,2,2,2,1
+File,BugOnApi28Test.java,1,1,1,1,4,0,4,0,,,,,1,0,0,2,,2,2,0,,,,2,,0,0,0,2,,28,,,,6,,,,22,,,17,4,0,,,,,,,11,14,12,,,2,,,,,,,,1,1,1,1,,,0,,,,0.00,2,2,2,2
+Public Class,br.com.concrete.canarinho.sample.BugOnApi28Test,1,1,1,1,4,0,4,0,1,5,5,0,,0,0,,,,2,0,,,,2,2,0,0,0,2,,16,,,,2,,,,14,,,9,4,0,,,,,,,4,7,5,,,2,,,,,,,,1,1,1,1,,1,0,,0,0,0.00,2,2,2,2
+Anonymous Class,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_1),1,1,1,1,3,0,3,0,1,6,6,0,,0,0,,,,2,0,,,,2,9,0,0,0,2,,10,,,,1,,,,9,,,5,2,0,,,,,,,2,4,2,,,2,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,2,2,2,2
+Anonymous Class,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_2),1,1,1,1,3,0,3,0,1,6,6,0,,0,0,,,,2,0,,,,2,9,0,0,0,2,,10,,,,1,,,,9,,,5,2,0,,,,,,,2,4,2,,,2,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,2,2,2,2
+Anonymous Class,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_3),1,1,1,1,5,0,5,0,1,8,8,0,,0,0,,,,2,0,,,,2,9,0,0,0,2,,14,,,,1,,,,13,,,5,6,0,,,,,,,2,4,2,,,2,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,2,2,2,2
+Anonymous Class,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_4),1,1,1,1,5,0,5,0,1,8,8,0,,0,0,,,,2,0,,,,2,9,0,0,0,2,,14,,,,1,,,,13,,,5,6,0,,,,,,,2,4,2,,,2,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,2,2,2,2
+Anonymous Class,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_5),1,1,1,1,3,0,3,0,1,6,6,0,,0,0,,,,2,0,,,,2,9,0,0,0,2,,10,,,,1,,,,9,,,5,2,0,,,,,,,2,4,2,,,2,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,2,2,2,2
+Anonymous Class,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_6),1,1,1,1,3,0,3,0,1,6,6,0,,0,0,,,,2,0,,,,2,9,0,0,0,2,,10,,,,1,,,,9,,,5,2,0,,,,,,,2,4,2,,,2,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,2,2,2,2
+Anonymous Class,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_7),1,1,1,1,3,0,3,0,1,6,6,0,,0,0,,,,2,0,,,,2,9,0,0,0,2,,10,,,,1,,,,9,,,5,2,0,,,,,,,2,4,2,,,2,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,2,2,2,2
+Anonymous Class,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_8),1,1,1,1,3,0,3,0,1,5,5,0,,0,0,,,,2,0,,,,2,9,0,0,0,2,,10,,,,1,,,,9,,,5,2,0,,,,,,,2,4,2,,,2,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,2,2,2,2
+Anonymous Class,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_9),1,1,1,1,3,0,3,0,1,4,4,0,,0,0,,,,2,0,,,,2,9,0,0,0,2,,10,,,,1,,,,9,,,5,2,0,,,,,,,2,4,2,,,2,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,2,2,2,2
+Public Method,br.com.concrete.canarinho.DigitoPara.Builder.comMultiplicadoresDeAte,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,,,,3,,,,7,,,1,4,10,,,,3,2,0,5,7,2,,,5,,,2,2,2,1,0,,,,,0,,1,0,,,1.43,2,2,2,1
+Public Method,br.com.concrete.canarinho.DigitoPara.Builder.trocandoPorSeEncontrar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,,,,3,,,,7,,,1,4,7,,,,3,2,0,3,6,2,,,4,,,2,2,2,1,0,,,,,0,,1,0,,,1.00,2,2,2,1
+Private Method,br.com.concrete.canarinho.DigitoPara.proximoMultiplicador,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,,,,3,,,,7,,,2,4,0,,,,2,2,0,3,5,2,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorBase.estaFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,,,,2,,,,6,,,1,3,0,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Private Method,br.com.concrete.canarinho.formatador.FormatadorBase.matchAndReplace,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,,,,2,,,,6,,,1,3,0,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorBase.podeSerFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,2,1,0,,,,,0,,0,0,,,0.00,1,1,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorBoleto.desformata,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,,,,2,,,,6,,,1,3,0,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Private Method,br.com.concrete.canarinho.formatador.FormatadorBoleto.ehTributo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,,,,2,,,,6,,,1,3,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorBoleto.estaFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,,,,2,,,,6,,,1,3,0,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorBoleto.formata,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,,,,2,,,,6,,,1,3,0,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorBoleto.podeSerFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,,,,2,,,,6,,,1,3,0,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorCEP.podeSerFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,1,,,,6,,,1,3,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorCPFCNPJ.desformata,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,1,,,,6,,,1,3,0,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Private Method,br.com.concrete.canarinho.formatador.FormatadorCPFCNPJ.ehCpf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,,,,1,,,,8,,,3,5,0,,,,4,2,0,3,5,2,,,4,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorCPFCNPJ.estaFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,1,,,,6,,,1,3,0,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorCPFCNPJ.formata,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,1,,,,6,,,1,3,0,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorTelefone.desformata,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,1,,,,6,,,1,3,0,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Private Method,br.com.concrete.canarinho.formatador.FormatadorTelefone.ehNoveDigitos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,,,,1,,,,8,,,1,5,0,,,,4,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorTelefone.estaFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,1,,,,6,,,1,3,0,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorTelefone.formata,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,1,,,,6,,,1,3,0,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorTelefone.podeSerFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,1,,,,6,,,1,3,0,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorValor.estaFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,,,,2,,,,6,,,1,3,0,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorValor.formata,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,,,,0,,,,4,,,2,2,0,,,,2,1,0,2,3,2,,,2,,,2,2,2,1,0,,,,,0,,0,0,,,0.00,2,2,2,1
+Static Method,br.com.concrete.canarinho.formatador.FormatadorValor.getInstance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,,,,0,,,,5,,,1,3,6,,,,1,1,0,1,2,1,,,1,,,2,2,2,1,0,,,,,0,,0,0,,,1.20,2,2,2,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorValor.podeSerFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,,,,2,,,,6,,,1,3,0,,,,3,2,0,2,4,1,,,3,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.paste.(Anon_1).getConstraints,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,,,,1,,,,8,,,1,6,3,,,,6,2,0,3,5,2,,,4,,,2,2,2,1,1,,,,,0,,1,0,,,0.38,2,2,2,1
+Public Method,br.com.concrete.canarinho.sample.ui.activity.MainActivity.onCreate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,19,,,,4,,,,15,,,5,12,0,,,,11,2,0,11,13,5,,,12,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.sample.ui.fragment.CanarinhoValorMonetarioWatcherFragment.bind,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,17,,,,4,,,,13,,,1,10,0,,,,11,2,0,6,8,1,,,7,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.sample.ui.fragment.WatcherFragment.bind,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,12,,,,2,,,,10,,,1,7,0,,,,9,2,0,6,8,1,,,7,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Private Method,br.com.concrete.canarinho.test.TesteFormatadorCEP.assertThrowsDesformat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,0,,,,7,,,1,4,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Private Method,br.com.concrete.canarinho.test.TesteFormatadorCEP.assertThrowsFormat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,0,,,,7,,,1,4,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorCEP.consegueDizerSeEstaFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,,,,2,,,,13,,,1,10,1,,,,4,2,0,8,10,1,,,9,,,2,2,2,1,1,,,,,0,,1,0,,,0.08,2,2,2,1
+Private Method,br.com.concrete.canarinho.test.TesteFormatadorCNPJ.assertThrowsDesformat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,0,,,,7,,,1,4,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Private Method,br.com.concrete.canarinho.test.TesteFormatadorCNPJ.assertThrowsFormat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,0,,,,7,,,1,4,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorCNPJ.consegueDizerSeEstaFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,,,,2,,,,13,,,1,10,1,,,,4,2,0,8,10,1,,,9,,,2,2,2,1,1,,,,,0,,1,0,,,0.08,2,2,2,1
+Private Method,br.com.concrete.canarinho.test.TesteFormatadorCPF.assertThrowsDesformat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,0,,,,7,,,1,4,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Private Method,br.com.concrete.canarinho.test.TesteFormatadorCPF.assertThrowsFormat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,0,,,,7,,,1,4,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorCPF.consegueDizerSeEstaFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,,,,2,,,,17,,,1,14,1,,,,4,2,0,12,14,1,,,13,,,2,2,2,1,1,,,,,0,,1,0,,,0.06,2,2,2,1
+Private Method,br.com.concrete.canarinho.test.TesteFormatadorCPFCNPJ.assertThrowsDesformat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,0,,,,7,,,1,4,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Private Method,br.com.concrete.canarinho.test.TesteFormatadorCPFCNPJ.assertThrowsFormat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,0,,,,7,,,1,4,0,,,,2,2,0,2,4,1,,,3,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorTelefone.consegueDesformatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,,,,2,,,,11,,,1,8,0,,,,4,2,0,4,6,1,,,5,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorTelefone.consegueDizerSeEstaFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,,,,2,,,,12,,,1,9,0,,,,4,2,0,7,9,1,,,8,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorTelefone.consegueDizerSePodeFormatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,,,,2,,,,11,,,1,8,0,,,,4,2,0,6,8,1,,,7,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorTelefone.consegueFormatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,,,,2,,,,11,,,1,8,0,,,,4,2,0,4,6,1,,,5,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorValor.consegueDizerSeEstaFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,,,,2,,,,10,,,1,7,0,,,,4,2,0,5,7,1,,,6,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorValor.consegueDizerSePodeFormatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,,,,2,,,,11,,,1,8,0,,,,4,2,0,6,8,1,,,7,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Public Method,br.com.concrete.canarinho.validator.ValidadorBoleto.ehValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,,,,2,,,,7,,,2,4,0,,,,5,2,0,3,5,2,,,4,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Private Method,br.com.concrete.canarinho.validator.ValidadorCPFCNPJ.ehCpf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,,,,1,,,,7,,,2,4,0,,,,4,2,0,3,5,2,,,4,,,2,2,2,1,0,,,,,0,,1,0,,,0.00,2,2,2,1
+Protected Method,br.com.concrete.canarinho.watcher.BaseCanarinhoTextWatcher.atualizaTexto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,24,,,,3,,,,11,,,2,7,10,,,,8,2,0,6,8,1,,,7,,,2,2,2,1,0,,,,,0,,1,0,,,0.91,2,2,2,1
+Protected Method,br.com.concrete.canarinho.watcher.BaseCanarinhoTextWatcher.trataAdicaoRemocaoDeCaracter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,12,,,,0,,,,5,,,1,3,7,,,,4,1,0,1,2,1,,,1,,,2,2,2,1,0,,,,,0,,0,0,,,1.40,2,2,2,1
+Public Method,br.com.concrete.canarinho.watcher.CEPTextWatcher.afterTextChanged,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,,,,4,,,,8,,,2,5,0,,,,4,2,0,4,6,2,,,5,,,2,2,2,1,1,,,,,0,,1,0,,,0.00,2,2,2,1
+Constructor,br.com.concrete.canarinho.watcher.ValorMonetarioWatcher.ValorMonetarioWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,12,,,,0,,,,6,,,1,4,6,,,,3,1,0,2,3,1,,,2,,,2,2,2,1,0,,,,,0,,0,0,,,1.00,2,2,2,1
+Private Method,br.com.concrete.canarinho.watcher.ValorMonetarioWatcher.atualizaTexto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,,,,5,,,,11,,,2,8,1,,,,8,2,0,7,9,2,,,8,,,2,2,2,1,0,,,,,0,,1,0,,,0.09,2,2,2,1
+File,BaseWatcherFragment.java,1,1,1,1,3,0,3,0,,,,,1,0,0,1,,1,1,1,,,,1,,0,0,0,1,,13,,,,4,,,,9,,,6,1,0,,,,,,,5,7,6,,,1,,,,,,,,1,1,1,1,,,0,,,,0.00,1,1,1,1
+File,Formatador.java,1,1,1,1,2,0,2,0,,,,,2,0,7,1,,5,5,9,,,,5,,4,1,0,0,,134,,,,23,,,,51,,,32,39,60,,,,,,,22,25,25,,,16,,,,,,,,1,1,1,1,,,0,,,,1.18,1,1,1,1
+Abstract Class,br.com.concrete.canarinho.formatador.Formatador.Padroes,1,1,1,1,2,0,2,0,1,1,1,0,,0,7,,,,1,0,,,,1,1,0,1,0,0,,28,,,,6,,,,19,,,13,15,3,,,,,,,7,9,9,,,7,,,,,,,,1,1,1,1,,1,0,,0,0,0.16,1,1,1,1
+Public Abstract Class,br.com.concrete.canarinho.sample.ui.fragment.BaseWatcherFragment,1,1,1,1,3,0,3,0,1,1,1,2,,0,0,,,,1,1,,,,1,1,0,0,0,1,,8,,,,2,,,,6,,,3,1,0,,,,,,,2,4,3,,,1,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,1,1,1,1
+Anonymous Class,br.com.concrete.canarinho.test.watcher.BoletoTextWatcherTest.setUp.(Anon_1),1,1,1,1,11,3,8,0,1,8,8,0,,0,0,,,,1,0,,,,1,1,0,0,0,1,,13,,,,3,,,,10,,,3,8,0,,,,,,,5,6,3,,,5,,,,,,,,1,1,1,1,,2,0,,0,0,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.DigitoPara.Builder.comMultiplicadores,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,,,,0,,,,5,,,1,3,8,,,,4,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,1.60,1,1,1,1
+Public Method,br.com.concrete.canarinho.DigitoPara.Builder.complementarAoModulo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,,,,0,,,,4,,,1,2,8,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,2.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.DigitoPara.Builder.mod,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,,,,0,,,,4,,,1,2,7,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,1.75,1,1,1,1
+Public Method,br.com.concrete.canarinho.DigitoPara.Builder.somandoIndividualmente,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,13,,,,0,,,,4,,,1,2,9,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,2.25,1,1,1,1
+Private Constructor,br.com.concrete.canarinho.DigitoPara.DigitoPara,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,8,,,,1,,,,7,,,1,5,0,,,,6,1,0,5,6,1,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Method,br.com.concrete.canarinho.DigitoPara.somaDigitos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Constructor,br.com.concrete.canarinho.formatador.Formatador.Padroes.Padroes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,,,,0,,,,2,,,1,0,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Constructor,br.com.concrete.canarinho.formatador.FormatadorBase.FormatadorBase,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,,,,1,,,,10,,,5,4,8,,,,5,1,0,4,5,1,,,4,,,1,1,1,1,0,,,,,0,,0,0,,,0.80,1,1,1,1
+Private Constructor,br.com.concrete.canarinho.formatador.FormatadorBoleto.FormatadorBoleto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,,,,0,,,,2,,,1,0,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Static Method,br.com.concrete.canarinho.formatador.FormatadorBoleto.getInstance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Constructor,br.com.concrete.canarinho.formatador.FormatadorCEP.FormatadorCEP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,,,,0,,,,2,,,1,0,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorCEP.desformata,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorCEP.estaFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorCEP.formata,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Static Method,br.com.concrete.canarinho.formatador.FormatadorCEP.getInstance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Constructor,br.com.concrete.canarinho.formatador.FormatadorCPFCNPJ.FormatadorCPFCNPJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,,,,0,,,,2,,,1,0,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Static Method,br.com.concrete.canarinho.formatador.FormatadorCPFCNPJ.getInstance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Constructor,br.com.concrete.canarinho.formatador.FormatadorLinhaDigitavel.FormatadorLinhaDigitavel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,,,,0,,,,2,,,1,0,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorLinhaDigitavel.estaFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Static Method,br.com.concrete.canarinho.formatador.FormatadorLinhaDigitavel.getInstance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.formatador.FormatadorLinhaDigitavel.podeSerFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,3,0,,,,4,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Constructor,br.com.concrete.canarinho.formatador.FormatadorTelefone.FormatadorTelefone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,,,,0,,,,2,,,1,0,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Static Method,br.com.concrete.canarinho.formatador.FormatadorTelefone.getInstance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Constructor,br.com.concrete.canarinho.formatador.FormatadorValor.FormatadorValor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.BugOnApi28Test.moneyFormatSuccessfulRunsOnApi27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,,,,0,,,,4,,,2,2,0,,,,2,1,0,2,3,2,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.BugOnApi28Test.moneyFormatSuccessfulRunsOnApi28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,,,,0,,,,4,,,2,2,0,,,,2,1,0,2,3,2,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.consegueDigitarCPFCNPJInvalido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,,,,3,,,,7,,,1,5,0,,,,11,1,0,5,6,1,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.consegueDigitarCPFCNPJValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,,,,2,,,,7,,,1,5,0,,,,12,1,0,5,6,1,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.consegueDigitarUmBoletoNormalComBlocosInvalidos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,,,,4,,,,12,,,1,10,3,,,,11,1,0,7,8,1,,,7,,,1,1,1,1,0,,,,,0,,0,0,,,0.25,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.consegueDigitarUmBoletoNormalComBlocosInvalidosComMensagemCustomizada,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,,,,4,,,,12,,,1,10,3,,,,11,1,0,7,8,1,,,7,,,1,1,1,1,0,,,,,0,,0,0,,,0.25,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.consegueDigitarUmBoletoNormalValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,,,,3,,,,6,,,1,4,0,,,,10,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.consegueDigitarUmBoletoTributoValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,,,,5,,,,13,,,1,11,1,,,,12,1,0,5,6,1,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.08,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.consegueDigitarUmCEPValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,,,,3,,,,6,,,1,4,0,,,,10,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.consegueDigitarUmCNPJInvalido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,,,,1,,,,5,,,1,3,0,,,,10,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.consegueDigitarUmCNPJValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,,,,3,,,,7,,,1,5,0,,,,11,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.consegueDigitarUmCPFInvalido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,2,,,,5,,,1,3,0,,,,10,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.consegueDigitarUmCPFValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,,,,3,,,,7,,,1,5,0,,,,11,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.consegueDigitarUmTelefoneValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,,,,5,,,,11,,,1,9,0,,,,11,1,0,5,6,1,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.consegueDigitarUmValorMonetarioFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,28,,,,3,,,,25,,,1,23,4,,,,12,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.16,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.consegueUtilizarUmaMascaraGenericaSemValidadorOuEvento,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,,,,2,,,,6,,,1,4,0,,,,10,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.consegueValidarUmBoletoSetandoOCodigoInteiro,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,,,,3,,,,6,,,1,4,0,,,,10,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.consegueValidarUmBoletoTributoSetandoOCodigoInteiro,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,,,,3,,,,6,,,1,4,0,,,,10,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.navigateToTab,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19,8,,,,0,,,,8,,,1,6,0,,,,9,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.paste,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,27,,,,3,,,,21,,,2,15,3,,,,1,1,0,6,11,5,,,7,,,1,1,1,1,0,,,,,0,,0,0,,,0.14,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.paste.(Anon_1).getDescription,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,0,2,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.DemoWatchersInstrumentationTest.paste.(Anon_1).perform,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,0,2,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br.com.concrete.canarinho.sample.ui.adapter.WatchersPagerAdapter.WatchersPagerAdapter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.adapter.WatchersPagerAdapter.getCount,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.adapter.WatchersPagerAdapter.getItem,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.adapter.WatchersPagerAdapter.getPageTitle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.fragment.BaseWatcherFragment.setModel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.fragment.CanarinhoValorMonetarioWatcherFragment.onCreateView,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,10,,,,1,,,,9,,,2,7,0,,,,8,1,0,7,8,2,,,7,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Static Method,br.com.concrete.canarinho.sample.ui.fragment.WatcherFragment.newInstance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,6,,,,0,,,,6,,,2,4,0,,,,3,1,0,4,5,2,,,4,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.fragment.WatcherFragment.onCreateView,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,9,,,,1,,,,8,,,2,6,0,,,,7,1,0,6,7,2,,,6,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_1).buildFragment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_1).setupWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_2).buildFragment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_2).setupWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_3).buildFragment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_3).setupWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,5,0,,,,6,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_4).buildFragment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_4).setupWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,7,,,1,5,0,,,,6,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_5).buildFragment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_5).setupWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_6).buildFragment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_6).setupWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_7).buildFragment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_7).setupWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_8).buildFragment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_8).setupWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_9).buildFragment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.(Anon_9).setupWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Constructor,br.com.concrete.canarinho.sample.ui.model.Watchers.EventoDeValidacaoBoleto.EventoDeValidacaoBoleto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br.com.concrete.canarinho.sample.ui.model.Watchers.SampleEventoDeValidacao.SampleEventoDeValidacao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.SampleEventoDeValidacao.invalido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.SampleEventoDeValidacao.parcialmenteValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,,,,0,,,,4,,,1,2,0,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.SampleEventoDeValidacao.totalmenteValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,,,,0,,,,6,,,1,4,0,,,,4,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Constructor,br.com.concrete.canarinho.sample.ui.model.Watchers.Watchers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,,,,0,,,,4,,,1,2,0,,,,3,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.getHint,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.getTitle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.valueOf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,0,,,,0,,,0,0,0,,,,1,0,0,0,0,0,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.sample.ui.model.Watchers.values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,0,,,,0,,,0,0,0,,,,1,0,0,0,0,0,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorBOLETO.consegueDesformatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,17,,,,5,,,,12,,,1,10,0,,,,3,1,0,5,6,1,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorBOLETO.consegueDizerSeEstaFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,,,,2,,,,7,,,1,5,0,,,,3,1,0,5,6,1,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorBOLETO.consegueDizerSePodeFormatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,2,,,1,0,1,,,,0,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.50,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorBOLETO.consegueFormatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,,,,4,,,,12,,,1,10,0,,,,3,1,0,5,6,1,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorCEP.consegueDesformatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,,,,3,,,,8,,,1,6,1,,,,4,1,0,6,7,1,,,6,,,1,1,1,1,0,,,,,0,,0,0,,,0.12,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorCEP.consegueDizerSePodeFormatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,,,,1,,,,7,,,1,5,1,,,,3,1,0,5,6,1,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.14,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorCEP.consegueFormatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,,,,3,,,,8,,,1,6,1,,,,4,1,0,6,7,1,,,6,,,1,1,1,1,0,,,,,0,,0,0,,,0.12,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorCNPJ.consegueDesformatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,17,,,,4,,,,12,,,1,10,1,,,,4,1,0,10,11,1,,,10,,,1,1,1,1,0,,,,,0,,0,0,,,0.08,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorCNPJ.consegueDizerSePodeFormatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,,,,1,,,,7,,,1,5,1,,,,3,1,0,5,6,1,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.14,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorCNPJ.consegueFormatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,17,,,,4,,,,12,,,1,10,1,,,,4,1,0,10,11,1,,,10,,,1,1,1,1,0,,,,,0,,0,0,,,0.08,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorCPF.consegueDesformatarCPF,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,,,,5,,,,14,,,1,12,1,,,,4,1,0,12,13,1,,,12,,,1,1,1,1,0,,,,,0,,0,0,,,0.07,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorCPF.consegueDizerSePodeFormatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,,,,1,,,,7,,,1,5,1,,,,3,1,0,5,6,1,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.14,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorCPF.consegueFormatarCPF,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,,,,5,,,,14,,,1,12,1,,,,4,1,0,12,13,1,,,12,,,1,1,1,1,0,,,,,0,,0,0,,,0.07,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorCPFCNPJ.consegueDesformatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,35,,,,9,,,,24,,,1,22,2,,,,4,1,0,22,23,1,,,22,,,1,1,1,1,0,,,,,0,,0,0,,,0.08,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorCPFCNPJ.consegueDizerSePodeFormatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,,,,2,,,,12,,,1,10,2,,,,3,1,0,10,11,1,,,10,,,1,1,1,1,0,,,,,0,,0,0,,,0.17,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorCPFCNPJ.consegueFormatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,35,,,,9,,,,24,,,1,22,2,,,,4,1,0,22,23,1,,,22,,,1,1,1,1,0,,,,,0,,0,0,,,0.08,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorLinhaDigitavel.consegueDizerSeEstaFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,,,,0,,,,5,,,1,3,0,,,,3,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorLinhaDigitavel.consegueDizerSePodeFormatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,,,,0,,,,4,,,1,2,0,,,,3,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorLinhaDigitavel.consegueFormatarEDesformatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,,,,3,,,,8,,,4,6,0,,,,5,1,0,5,6,4,,,4,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorValor.consegueDesformatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,,,,0,,,,5,,,1,3,0,,,,3,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorValor.consegueDesformatarComSimbolo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,,,,0,,,,5,,,1,3,0,,,,3,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorValor.consegueFormatar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,,,,1,,,,12,,,1,10,0,,,,3,1,0,10,11,1,,,10,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteFormatadorValor.consegueFormatarComSimbolo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,,,,1,,,,12,,,1,10,0,,,,3,1,0,10,11,1,,,10,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteValidadores.consegueValidarBoletoNormal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,35,,,,9,,,,18,,,1,16,8,,,,3,1,0,8,9,1,,,8,,,1,1,1,1,0,,,,,0,,0,0,,,0.44,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteValidadores.consegueValidarBoletoTributoDeTaxa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,,,,2,,,,6,,,1,4,0,,,,3,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteValidadores.consegueValidarBoletoTributoSemSerTaxa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,,,,1,,,,4,,,1,2,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteValidadores.consegueValidarCEP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,,,,0,,,,7,,,1,5,0,,,,3,1,0,5,6,1,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteValidadores.consegueValidarCNPJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,,,,2,,,,11,,,1,9,2,,,,3,1,0,9,10,1,,,9,,,1,1,1,1,0,,,,,0,,0,0,,,0.18,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteValidadores.consegueValidarCPF,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,27,,,,4,,,,22,,,1,20,1,,,,3,1,0,20,21,1,,,20,,,1,1,1,1,0,,,,,0,,0,0,,,0.05,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.TesteValidadores.consegueValidarTelefone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,,,,0,,,,7,,,1,5,0,,,,3,1,0,5,6,1,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.watcher.BoletoTextWatcherTest.deleting_afterEmptyingEditTextItKeepsValidatingInput,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,,,,2,,,,9,,,1,7,1,,,,9,1,0,7,8,1,,,7,,,1,1,1,1,0,,,,,0,,0,0,,,0.11,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.watcher.BoletoTextWatcherTest.deleting_canEmptyEditText,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,,,,1,,,,7,,,1,5,0,,,,9,1,0,5,6,1,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.watcher.BoletoTextWatcherTest.setUp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,17,,,,3,,,,14,,,5,10,0,,,,2,1,0,7,9,5,,,7,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.watcher.BoletoTextWatcherTest.setUp.(Anon_1).perform,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,,,,3,,,,8,,,3,6,0,,,,6,1,0,5,6,3,,,5,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.watcher.BoletoTextWatcherTest.typing_canValidateEmptyState,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,3,0,,,,7,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.watcher.BoletoTextWatcherTest.typing_canValidateProperCharacters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,,,,0,,,,5,,,1,3,0,,,,7,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.watcher.ValorMonetarioWatcherTest.setUp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,,,,1,,,,9,,,4,6,0,,,,10,1,0,7,8,4,,,6,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.watcher.ValorMonetarioWatcherTest.watcher_canEmptyTextAndKeepZeroes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,,,,2,,,,12,,,1,10,0,,,,10,1,0,7,8,1,,,7,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.watcher.ValorMonetarioWatcherTest.watcher_canEmptyTextWithoutZeroes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,,,,2,,,,11,,,1,9,0,,,,9,1,0,7,8,1,,,7,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.watcher.ValorMonetarioWatcherTest.watcher_formataOk,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,,,,0,,,,5,,,1,3,0,,,,7,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.test.watcher.ValorMonetarioWatcherTest.watcher_formataOkComSimbolo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,,,,0,,,,8,,,1,6,0,,,,9,1,0,3,4,1,,,3,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.validator.Validador.ResultadoParcial.getMensagem,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.validator.Validador.ResultadoParcial.isParcialmenteValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.validator.Validador.ResultadoParcial.isValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.validator.Validador.ResultadoParcial.mensagem,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,10,,,,0,,,,4,,,1,2,6,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,1.50,1,1,1,1
+Public Method,br.com.concrete.canarinho.validator.Validador.ResultadoParcial.parcialmenteValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,10,,,,0,,,,4,,,1,2,6,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,1.50,1,1,1,1
+Public Method,br.com.concrete.canarinho.validator.Validador.ResultadoParcial.totalmenteValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,10,,,,0,,,,4,,,1,2,6,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,1.50,1,1,1,1
+Private Constructor,br.com.concrete.canarinho.validator.ValidadorBoleto.ValidadorBoleto,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,,,,0,,,,2,,,1,0,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Method,br.com.concrete.canarinho.validator.ValidadorBoleto.ehTributo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Static Method,br.com.concrete.canarinho.validator.ValidadorBoleto.getInstance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Constructor,br.com.concrete.canarinho.validator.ValidadorCEP.ValidadorCEP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,,,,0,,,,2,,,1,0,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Static Method,br.com.concrete.canarinho.validator.ValidadorCEP.getInstance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Constructor,br.com.concrete.canarinho.validator.ValidadorCNPJ.ValidadorCNPJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,,,,0,,,,2,,,1,0,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Static Method,br.com.concrete.canarinho.validator.ValidadorCNPJ.getInstance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Constructor,br.com.concrete.canarinho.validator.ValidadorCPF.ValidadorCPF,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,,,,0,,,,2,,,1,0,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Static Method,br.com.concrete.canarinho.validator.ValidadorCPF.getInstance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Constructor,br.com.concrete.canarinho.validator.ValidadorCPFCNPJ.ValidadorCPFCNPJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,,,,0,,,,2,,,1,0,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Static Method,br.com.concrete.canarinho.validator.ValidadorCPFCNPJ.getInstance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Constructor,br.com.concrete.canarinho.validator.ValidadorTelefone.ValidadorTelefone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,,,,0,,,,2,,,1,0,0,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Static Method,br.com.concrete.canarinho.validator.ValidadorTelefone.getInstance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.watcher.BaseCanarinhoTextWatcher.beforeTextChanged,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,2,,,1,0,1,,,,0,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.50,1,1,1,1
+Public Generic Method,br.com.concrete.canarinho.watcher.BaseCanarinhoTextWatcher.getEventoDeValidacao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Protected Method,br.com.concrete.canarinho.watcher.BaseCanarinhoTextWatcher.isApagouCaracter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,,,,0,,,,3,,,1,1,7,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,2.33,1,1,1,1
+Public Method,br.com.concrete.canarinho.watcher.BaseCanarinhoTextWatcher.isMudancaInterna,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.watcher.BaseCanarinhoTextWatcher.onTextChanged,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,2,,,1,0,1,,,,0,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.50,1,1,1,1
+Public Method,br.com.concrete.canarinho.watcher.BaseCanarinhoTextWatcher.setEventoDeValidacao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Private Method,br.com.concrete.canarinho.watcher.BaseCanarinhoTextWatcher.trataAdicaoDeCaracter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br.com.concrete.canarinho.watcher.BoletoBancarioTextWatcher.BoletoBancarioTextWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,,,,0,,,,3,,,1,1,5,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,1.67,1,1,1,1
+Private Method,br.com.concrete.canarinho.watcher.BoletoBancarioTextWatcher.ehTributo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,,,,0,,,,3,,,1,1,0,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.watcher.BoletoBancarioTextWatcher.getResultadoParcial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,,,,0,,,,3,,,1,1,0,,,,1,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br.com.concrete.canarinho.watcher.CEPTextWatcher.CEPTextWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,,,,0,,,,3,,,1,1,5,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,1.67,1,1,1,1
+Public Constructor,br.com.concrete.canarinho.watcher.CPFCNPJTextWatcher.CPFCNPJTextWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,,,,0,,,,3,,,1,1,5,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,1.67,1,1,1,1
+Public Constructor,br.com.concrete.canarinho.watcher.CPFCNPJTextWatcher.CPFCNPJTextWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,,,,0,,,,2,,,1,0,3,,,,1,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,1.50,1,1,1,1
+Private Method,br.com.concrete.canarinho.watcher.CPFCNPJTextWatcher.ehCpf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,4,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.watcher.MascaraNumericaTextWatcher.Builder.comCallbackDeValidacao,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,,,,0,,,,4,,,1,2,7,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,1.75,1,1,1,1
+Public Method,br.com.concrete.canarinho.watcher.MascaraNumericaTextWatcher.Builder.comValidador,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,,,,0,,,,4,,,1,2,7,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,1.75,1,1,1,1
+Public Method,br.com.concrete.canarinho.watcher.MascaraNumericaTextWatcher.Builder.paraMascara,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,,,,0,,,,4,,,1,2,8,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,2.00,1,1,1,1
+Public Constructor,br.com.concrete.canarinho.watcher.MascaraNumericaTextWatcher.MascaraNumericaTextWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,,,,0,,,,3,,,1,1,5,,,,3,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,1.67,1,1,1,1
+Private Constructor,br.com.concrete.canarinho.watcher.MascaraNumericaTextWatcher.MascaraNumericaTextWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,9,,,,2,,,,7,,,2,5,0,,,,6,1,0,5,6,2,,,4,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Constructor,br.com.concrete.canarinho.watcher.TelefoneTextWatcher.TelefoneTextWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,,,,0,,,,3,,,1,1,5,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,1.67,1,1,1,1
+Private Method,br.com.concrete.canarinho.watcher.TelefoneTextWatcher.ehNoveDigitos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,,,0,,,,3,,,1,1,0,,,,4,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,0.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.watcher.ValorMonetarioWatcher.Builder.build,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,8,,,,0,,,,3,,,1,1,5,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,1.67,1,1,1,1
+Public Method,br.com.concrete.canarinho.watcher.ValorMonetarioWatcher.Builder.comMantemZerosAoLimpar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,,,,0,,,,4,,,1,2,5,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,1.25,1,1,1,1
+Public Method,br.com.concrete.canarinho.watcher.ValorMonetarioWatcher.Builder.comSimboloReal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,,,,0,,,,4,,,1,2,5,,,,2,1,0,2,3,1,,,2,,,1,1,1,1,0,,,,,0,,0,0,,,1.25,1,1,1,1
+Public Constructor,br.com.concrete.canarinho.watcher.ValorMonetarioWatcher.ValorMonetarioWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,,,,0,,,,3,,,1,1,3,,,,2,1,0,1,2,1,,,1,,,1,1,1,1,0,,,,,0,,0,0,,,1.00,1,1,1,1
+Public Method,br.com.concrete.canarinho.watcher.ValorMonetarioWatcher.beforeTextChanged,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,2,,,1,0,1,,,,0,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.50,1,1,1,1
+Public Method,br.com.concrete.canarinho.watcher.ValorMonetarioWatcher.onTextChanged,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,,,,0,,,,2,,,1,0,1,,,,0,1,0,0,1,1,,,0,,,1,1,1,1,0,,,,,0,,0,0,,,0.50,1,1,1,1
+File,AndroidManifest.xml,0,0,0,0,1,0,1,0,,,,,0,,,0,,0,,,,,,,,,,,,,1,0,0,0,0,0,0,0,1,0,0,,,0,0,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,,0,0,,0,,,0,,,,0.00,0,0,0,0
+File,AndroidManifest.xml,0,0,0,0,18,3,15,0,,,,,0,,,0,,0,,,,,,,,,,,,,18,0,0,0,3,0,0,0,15,0,0,,,0,0,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,,0,0,,0,,,0,,,,0.00,0,0,0,0
+File,EventoDeValidacao.java,0,0,0,0,0,0,0,0,,,,,1,0,0,0,,3,3,0,,,,3,,3,0,0,0,,31,,,,4,,,,6,,,5,0,21,,,,,,,4,5,5,,,0,,,,,,,,0,0,0,0,,,0,,,,3.50,0,0,0,0
+File,EventoDeValidacaoDeBoleto.java,0,0,0,0,0,0,0,0,,,,,1,0,0,0,,1,1,0,,,,1,,1,0,0,0,,17,,,,3,,,,4,,,3,0,10,,,,,,,2,3,3,,,0,,,,,,,,0,0,0,0,,,0,,,,2.50,0,0,0,0
+Package,br,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,,,,0,,0,0,0,0,,0,,,,0,,,,0,,,0,0,0,,,,,,,0,0,0,,,0,,,,,,,,0,0,0,0,,,0,,,,0.00,0,0,0,0
+Package,br.com,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,,,,0,,0,0,0,0,,0,,,,0,,,,0,,,0,0,0,,,,,,,0,0,0,,,0,,,,,,,,0,0,0,0,,,0,,,,0.00,0,0,0,0
+Package,br.com.concrete,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,,,,0,,0,0,0,0,,0,,,,0,,,,0,,,0,0,0,,,,,,,0,0,0,,,0,,,,,,,,0,0,0,0,,,0,,,,0.00,0,0,0,0
+Public Interface,br.com.concrete.canarinho.formatador.Formatador,0,0,0,0,0,0,0,0,0,8,8,7,,0,0,,,,4,9,,,,4,4,4,0,0,0,,130,,,,21,,,,49,,,30,39,60,,,,,,,20,23,23,,,16,,,,,,,,0,0,0,0,,0,0,,0,0,1.22,0,0,0,0
+Private Static Class,br.com.concrete.canarinho.formatador.FormatadorBoleto.SingletonHolder,0,0,0,0,0,0,0,0,1,1,1,0,,0,1,,,,0,0,,,,0,0,0,0,0,0,,3,,,,0,,,,3,,,2,1,0,,,,,,,1,2,2,,,1,,,,,,,,0,0,0,0,,1,0,,0,0,0.00,0,0,0,0
+Private Static Class,br.com.concrete.canarinho.formatador.FormatadorCEP.SingletonHolder,0,0,0,0,0,0,0,0,1,1,1,0,,0,1,,,,0,0,,,,0,0,0,0,0,0,,3,,,,0,,,,3,,,2,1,0,,,,,,,1,2,2,,,1,,,,,,,,0,0,0,0,,1,0,,0,0,0.00,0,0,0,0
+Private Static Class,br.com.concrete.canarinho.formatador.FormatadorCPFCNPJ.SingletonHolder,0,0,0,0,0,0,0,0,1,1,1,0,,0,1,,,,0,0,,,,0,0,0,0,0,0,,3,,,,0,,,,3,,,2,1,0,,,,,,,1,2,2,,,1,,,,,,,,0,0,0,0,,1,0,,0,0,0.00,0,0,0,0
+Private Static Class,br.com.concrete.canarinho.formatador.FormatadorLinhaDigitavel.SingletonHolder,0,0,0,0,0,0,0,0,1,1,1,0,,0,1,,,,0,0,,,,0,0,0,0,0,0,,3,,,,0,,,,3,,,2,1,0,,,,,,,1,2,2,,,1,,,,,,,,0,0,0,0,,1,0,,0,0,0.00,0,0,0,0
+Private Static Class,br.com.concrete.canarinho.formatador.FormatadorTelefone.SingletonHolder,0,0,0,0,0,0,0,0,1,1,1,0,,0,1,,,,0,0,,,,0,0,0,0,0,0,,3,,,,0,,,,3,,,2,1,0,,,,,,,1,2,2,,,1,,,,,,,,0,0,0,0,,1,0,,0,0,0.00,0,0,0,0
+Private Static Class,br.com.concrete.canarinho.formatador.FormatadorValor.SingletonHolder,0,0,0,0,0,0,0,0,1,1,1,0,,0,2,,,,0,0,,,,0,0,0,0,0,0,,4,,,,0,,,,4,,,3,2,0,,,,,,,2,3,3,,,2,,,,,,,,0,0,0,0,,1,0,,0,0,0.00,0,0,0,0
+Package,br.com.concrete.canarinho.sample.ui,0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,,,,0,,0,0,0,0,,0,,,,0,,,,0,,,0,0,0,,,,,,,0,0,0,,,0,,,,,,,,0,0,0,0,,,0,,,,0.00,0,0,0,0
+Public Interface,br.com.concrete.canarinho.validator.Validador,0,0,0,0,0,0,0,0,0,8,8,6,,0,0,,,,2,5,,,,2,2,2,0,0,0,,109,,,,15,,,,35,,,18,15,59,,,,,,,19,27,18,,,14,,,,,,,,0,0,0,0,,0,0,,0,0,1.69,0,0,0,0
+Private Static Class,br.com.concrete.canarinho.validator.ValidadorBoleto.SingletonHolder,0,0,0,0,0,0,0,0,1,1,1,0,,0,1,,,,0,0,,,,0,0,0,0,0,0,,3,,,,0,,,,3,,,2,1,0,,,,,,,1,2,2,,,1,,,,,,,,0,0,0,0,,1,0,,0,0,0.00,0,0,0,0
+Private Static Class,br.com.concrete.canarinho.validator.ValidadorCEP.SingletonHolder,0,0,0,0,0,0,0,0,1,1,1,0,,0,1,,,,0,0,,,,0,0,0,0,0,0,,3,,,,0,,,,3,,,2,1,0,,,,,,,1,2,2,,,1,,,,,,,,0,0,0,0,,1,0,,0,0,0.00,0,0,0,0
+Private Static Class,br.com.concrete.canarinho.validator.ValidadorCNPJ.SingletonHolder,0,0,0,0,0,0,0,0,1,1,1,0,,0,1,,,,0,0,,,,0,0,0,0,0,0,,3,,,,0,,,,3,,,2,1,0,,,,,,,1,2,2,,,1,,,,,,,,0,0,0,0,,1,0,,0,0,0.00,0,0,0,0
+Private Static Class,br.com.concrete.canarinho.validator.ValidadorCPF.SingletonHolder,0,0,0,0,0,0,0,0,1,1,1,0,,0,1,,,,0,0,,,,0,0,0,0,0,0,,3,,,,0,,,,3,,,2,1,0,,,,,,,1,2,2,,,1,,,,,,,,0,0,0,0,,1,0,,0,0,0.00,0,0,0,0
+Private Static Class,br.com.concrete.canarinho.validator.ValidadorCPFCNPJ.SingletonHolder,0,0,0,0,0,0,0,0,1,1,1,0,,0,1,,,,0,0,,,,0,0,0,0,0,0,,3,,,,0,,,,3,,,2,1,0,,,,,,,1,2,2,,,1,,,,,,,,0,0,0,0,,1,0,,0,0,0.00,0,0,0,0
+Private Static Class,br.com.concrete.canarinho.validator.ValidadorTelefone.SingletonHolder,0,0,0,0,0,0,0,0,1,1,1,0,,0,1,,,,0,0,,,,0,0,0,0,0,0,,3,,,,0,,,,3,,,2,1,0,,,,,,,1,2,2,,,1,,,,,,,,0,0,0,0,,1,0,,0,0,0.00,0,0,0,0
+TypeVariable,br.com.concrete.canarinho.watcher.BaseCanarinhoTextWatcher.getEventoDeValidacao.T,0,0,0,0,0,0,0,0,2,0,0,0,,0,0,,,,0,0,,,,0,0,0,0,0,0,,0,,,,0,,,,0,,,0,0,0,,,,,,,0,0,0,,,0,,,,,,,,0,0,0,0,,1,0,,0,0,0.00,0,0,0,0
+Package,br.com.concrete.canarinho.watcher.evento,0,0,0,0,0,0,0,0,,,,,2,0,0,,2,,4,0,,,,4,,4,0,0,0,,48,,,,7,,,,10,,,8,0,31,,,,,,,6,8,8,,,0,,,,,,,,0,0,0,0,,,0,,,,3.10,0,0,0,0
+Public Interface,br.com.concrete.canarinho.watcher.evento.EventoDeValidacao,0,0,0,0,0,0,0,0,0,1,1,3,,0,0,,,,3,0,,,,3,3,3,0,0,0,,25,,,,3,,,,5,,,4,0,17,,,,,,,3,4,4,,,0,,,,,,,,0,0,0,0,,0,0,,0,0,3.40,0,0,0,0
+Public Interface,br.com.concrete.canarinho.watcher.evento.EventoDeValidacaoDeBoleto,0,0,0,0,0,0,0,0,1,1,1,1,,0,0,,,,1,0,,,,1,4,1,0,0,0,,11,,,,2,,,,3,,,2,0,6,,,,,,,1,2,2,,,0,,,,,,,,0,0,0,0,,1,0,,0,0,2.00,0,0,0,0
+File,checkstyle.xml,0,0,0,0,247,8,227,12,,,,,0,,,0,,0,,,,,,,,,,,,,247,0,0,0,8,0,0,0,227,0,0,,,12,0,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,,0,0,,0,,,0,,,,0.05,0,0,0,0
+File,fragment_canarinho_watcher.xml,0,0,0,0,36,6,30,0,,,,,0,,,0,,0,,,,,,,,,,,,,36,0,0,0,6,0,0,0,30,0,0,,,0,0,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,,0,0,,0,,,0,,,,0.00,0,0,0,0
+File,fragment_valor_monetario_watcher.xml,0,0,0,0,36,6,30,0,,,,,0,,,0,,0,,,,,,,,,,,,,36,0,0,0,6,0,0,0,30,0,0,,,0,0,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,,0,0,,0,,,0,,,,0.00,0,0,0,0
+File,main_activity.xml,0,0,0,0,52,9,43,0,,,,,0,,,0,,0,,,,,,,,,,,,,52,0,0,0,9,0,0,0,43,0,0,,,0,0,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,,0,0,,0,,,0,,,,0.00,0,0,0,0
+File,pmd-ruleset.xml,0,0,0,0,30,3,26,1,,,,,0,,,0,,0,,,,,,,,,,,,,30,0,0,0,3,0,0,0,26,0,0,,,1,0,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,,0,0,,0,,,0,,,,0.04,0,0,0,0
+File,strings.xml,0,0,0,0,3,0,3,0,,,,,0,,,0,,0,,,,,,,,,,,,,3,0,0,0,0,0,0,0,3,0,0,,,0,0,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,,0,0,,0,,,0,,,,0.00,0,0,0,0
+File,styles.xml,0,0,0,0,5,0,4,1,,,,,0,,,0,,0,,,,,,,,,,,,,5,0,0,0,0,0,0,0,4,0,0,,,1,0,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,,0,0,,0,,,0,,,,0.25,0,0,0,0
+File,suppressions.xml,0,0,0,0,12,3,9,0,,,,,0,,,0,,0,,,,,,,,,,,,,12,0,0,0,3,0,0,0,9,0,0,,,0,0,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,,0,0,,0,,,0,,,,0.00,0,0,0,0
+Abstract Method,br.com.concrete.canarinho.formatador.Formatador.desformata,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13,7,,,,0,,,,1,,,1,0,6,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,6.00,0,0,0,0
+Abstract Method,br.com.concrete.canarinho.formatador.Formatador.estaFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,7,,,,0,,,,1,,,1,0,6,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,6.00,0,0,0,0
+Abstract Method,br.com.concrete.canarinho.formatador.Formatador.formata,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14,7,,,,0,,,,1,,,1,0,6,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,6.00,0,0,0,0
+Abstract Method,br.com.concrete.canarinho.formatador.Formatador.podeSerFormatado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,7,,,,0,,,,1,,,1,0,6,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,6.00,0,0,0,0
+Public Abstract Method,br.com.concrete.canarinho.sample.ui.model.Watchers.buildFragment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Public Abstract Method,br.com.concrete.canarinho.sample.ui.model.Watchers.setupWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,0,,,,1,,,1,0,0,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,0.00,0,0,0,0
+Abstract Method,br.com.concrete.canarinho.validator.Validador.ehValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,7,,,,0,,,,1,,,1,0,6,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,6.00,0,0,0,0
+Abstract Method,br.com.concrete.canarinho.validator.Validador.ehValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,,,,0,,,,1,,,1,0,8,,,,1,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,8.00,0,0,0,0
+Abstract Method,br.com.concrete.canarinho.watcher.evento.EventoDeValidacao.invalido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,,,,0,,,,1,,,1,0,6,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,6.00,0,0,0,0
+Abstract Method,br.com.concrete.canarinho.watcher.evento.EventoDeValidacao.parcialmenteValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,,,,0,,,,1,,,1,0,6,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,6.00,0,0,0,0
+Abstract Method,br.com.concrete.canarinho.watcher.evento.EventoDeValidacao.totalmenteValido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,,,,0,,,,1,,,1,0,5,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,5.00,0,0,0,0
+Abstract Method,br.com.concrete.canarinho.watcher.evento.EventoDeValidacaoDeBoleto.invalido,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,,,,0,,,,1,,,1,0,6,,,,0,0,0,1,1,1,,,0,,,0,0,0,0,0,,,,,0,,0,0,,,6.00,0,0,0,0

@@ -1,0 +1,27 @@
+apply plugin: 'com.android.library'
+apply from: "$rootDir/tools/linters/linters.gradle"
+apply from: "$rootDir/tools/publish.gradle"
+
+
+ext {
+    publishedGroupId = 'br.com.concrete'
+    libraryName = 'Android Canarinho'
+    artifact = 'canarinho'
+
+    libraryDescription = 'Utilitários Android para padrões Brasileiros'
+    libraryVersion = '2.0.3'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 31
+    }
+}
+
