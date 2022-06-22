@@ -83,7 +83,7 @@ public final class FormatadorLinhaDigitavel implements Formatador {
             throw new IllegalArgumentException("Valor não pode estar nulo.");
         }
 
-        String valorDesformatadao = Padroes.PADRAO_SOMENTE_NUMEROS.matcher(valor)
+        String valorDesformatadao = PADRAO_SOMENTE_NUMEROS.matcher(valor)
                 .replaceAll("");
 
         if (valorDesformatadao.charAt(0) == '8') {
@@ -135,7 +135,7 @@ public final class FormatadorLinhaDigitavel implements Formatador {
 
     @Override
     public boolean podeSerFormatado(String value) {
-        return Padroes.PADRAO_SOMENTE_NUMEROS.matcher(value)
+        return PADRAO_SOMENTE_NUMEROS.matcher(value)
                 .replaceAll("")
                 .length() == 44;
     }

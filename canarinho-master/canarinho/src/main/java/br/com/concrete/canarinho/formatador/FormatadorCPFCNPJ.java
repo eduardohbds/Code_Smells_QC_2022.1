@@ -58,7 +58,7 @@ public final class FormatadorCPFCNPJ implements Formatador {
             throw new IllegalArgumentException("Valor não pode ser nulo");
         }
 
-        final String desformatado = Formatador.Padroes.PADRAO_SOMENTE_NUMEROS.matcher(value)
+        final String desformatado = Formatador.PADRAO_SOMENTE_NUMEROS.matcher(value)
                 .replaceAll("");
         return desformatado.length() < 12;
     }

@@ -85,7 +85,7 @@ public final class FormatadorTelefone implements Formatador {
             throw new IllegalArgumentException("Valor não pode ser nulo");
         }
 
-        return Formatador.Padroes.PADRAO_SOMENTE_NUMEROS.matcher(value)
+        return Formatador.PADRAO_SOMENTE_NUMEROS.matcher(value)
                 .replaceAll("")
                 .length() > 10;
     }
