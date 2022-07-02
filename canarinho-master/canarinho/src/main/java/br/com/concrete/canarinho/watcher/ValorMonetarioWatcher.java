@@ -39,16 +39,7 @@ public class ValorMonetarioWatcher implements TextWatcher {
         this.mantemZerosAoLimpar = mantemZerosAoLimpar;
     }
 
-    @Override
-    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-        // Não faz nada aqui
-    }
-
-    @Override
-    public void onTextChanged(CharSequence s, int start, int before, int count) {
-        // Não faz nada aqui
-    }
-
+   
     @Override
     public void afterTextChanged(Editable s) {
 
