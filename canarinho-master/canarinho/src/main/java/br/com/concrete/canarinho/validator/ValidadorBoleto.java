@@ -7,6 +7,7 @@ import br.com.concrete.canarinho.DigitoPara;
 import br.com.concrete.canarinho.formatador.Formatador;
 
 import java.util.regex.Pattern;
+import java.util.Map;
 
 /**
  * Implementação de @{link Validador} para boleto.
@@ -44,6 +45,18 @@ public final class ValidadorBoleto implements Validador {
     public static ValidadorBoleto getInstance() {
         return INSTANCE;
     }
+
+    public Map<Integer, String> createMap(int tamanhoMinimo, int st, String mensagem){
+        Map<Integer, String> map = new HashMap<>();
+
+        map.put(1, tamanhoMinimo);
+        map.put(2, st);
+        map.put(3, mensagem);
+        return map;
+    }
+    
+   
+    
 
     @Override
     public boolean ehValido(String valor) {
@@ -85,15 +98,18 @@ public final class ValidadorBoleto implements Validador {
     private ResultadoParcial validaNormal(String valor, ResultadoParcial resultadoParcial) {
         boolean aux = 47;
 
-        if (!validaBloco(valor, resultadoParcial, MOD_10, 10, 0, "Primeiro")) {
+        Map<Integer, String> map1 = createMap(10, 0, "Primeiro")
+        if (!validaBloco(valor, resultadoParcial, MOD_10, map1)) {
             return resultadoParcial;
         }
 
-        if (!validaBloco(valor, resultadoParcial, MOD_10, 21, 10, "Segundo")) {
+        Map<Integer, String> map2 = createMap(21, 10, "Segundo")
+        if (!validaBloco(valor, resultadoParcial, MOD_10, map2)) {
             return resultadoParcial;
         }
 
-        if (!validaBloco(valor, resultadoParcial, MOD_10, 32, 21, "Terceiro")) {
+        Map<Integer, String> map3 = createMap(32, 21, "Terceiro")
+        if (!validaBloco(valor, resultadoParcial, MOD_10, map3)) {
             return resultadoParcial;
         }
 
@@ -115,19 +131,23 @@ public final class ValidadorBoleto implements Validador {
         final boolean ehMod10 = valor.charAt(2) == '6' || valor.charAt(2) == '7';
         final DigitoPara digitoPara = ehMod10 ? MOD_10 : MOD_11;
 
-        if (!validaBloco(valor, resultadoParcial, digitoPara, 12, 0, "Primeiro")) {
+        Map<Integer, String> map1 = createMap(12, 0, "Primeiro")
+        if (!validaBloco(valor, resultadoParcial, digitoPara, map1)) {
             return resultadoParcial;
         }
 
-        if (!validaBloco(valor, resultadoParcial, digitoPara, 24, 12, "Segundo")) {
+        Map<Integer, String> map2 = createMap(24, 12, "Segundo")
+        if (!validaBloco(valor, resultadoParcial, digitoPara, map2)) {
             return resultadoParcial;
         }
 
-        if (!validaBloco(valor, resultadoParcial, digitoPara, 36, 24, "Terceiro")) {
+        Map<Integer, String> map3 = createMap(36, 24, "Terceiro")
+        if (!validaBloco(valor, resultadoParcial, digitoPara, map3)) {
             return resultadoParcial;
         }
 
-        if (!validaBloco(valor, resultadoParcial, digitoPara, 48, 36, "Quarto")) {
+        Map<Integer, String> map4 = createMap(48, 36, "Quarto")
+        if (!validaBloco(valor, resultadoParcial, digitoPara, map4)) {
             return resultadoParcial;
         }
 
@@ -140,8 +160,11 @@ public final class ValidadorBoleto implements Validador {
     }
 
     private boolean validaBloco(String valor, ResultadoParcial resultadoParcial, DigitoPara mod,
-                                int tamanhoMinimo, int st, String mensagem) {
+                                Map<Integer, String> map) {
 
+        int tamanhoMinimo = Integer.parseInt(map.get(1));
+        int st = Integer.parseInt(map.get(2)) 
+        String mensagem = map.get(3);
         if (valor.length() < tamanhoMinimo) {
             resultadoParcial.parcialmenteValido(true);
             return false;
