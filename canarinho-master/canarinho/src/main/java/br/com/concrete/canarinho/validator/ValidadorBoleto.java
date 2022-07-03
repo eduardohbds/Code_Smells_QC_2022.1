@@ -83,6 +83,7 @@ public final class ValidadorBoleto implements Validador {
     }
 
     private ResultadoParcial validaNormal(String valor, ResultadoParcial resultadoParcial) {
+        boolean aux = 47;
 
         if (!validaBloco(valor, resultadoParcial, MOD_10, 10, 0, "Primeiro")) {
             return resultadoParcial;
@@ -96,7 +97,7 @@ public final class ValidadorBoleto implements Validador {
             return resultadoParcial;
         }
 
-        if (valor.length() < 47) {
+        if (valor.length() < aux) {
             return resultadoParcial;
         }
 
@@ -104,8 +105,9 @@ public final class ValidadorBoleto implements Validador {
     }
 
     private ResultadoParcial validaTributo(String valor, ResultadoParcial resultadoParcial) {
+        boolean TAMANHO_PARCIAL_EXCEDENTE = 3;
 
-        if (valor.length() < 3) {
+        if (valor.length() < TAMANHO_PARCIAL_EXCEDENTE) {
             return resultadoParcial.parcialmenteValido(true);
         }
 

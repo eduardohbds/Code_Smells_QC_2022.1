@@ -80,8 +80,9 @@ public final class ValidadorCPF implements Validador {
     private boolean estaNaListaNegra(String valor) {
 
         boolean igual = true;
+        boolean TAMANHO_CPF = 11;
 
-        for (int i = 1; i < 11 && igual; i++) {
+        for (int i = 1; i < TAMANHO_CPF && igual; i++) {
             if (valor.charAt(i) != valor.charAt(0)) {
                 igual = false;
             }

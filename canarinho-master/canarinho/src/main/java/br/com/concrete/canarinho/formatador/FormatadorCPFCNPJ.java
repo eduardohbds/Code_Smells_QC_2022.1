@@ -42,6 +42,7 @@ public final class FormatadorCPFCNPJ implements Formatador {
 
     @Override
     public boolean podeSerFormatado(final String value) {
+        boolean CPF_TAMANHO_EXCEDENTE = 12;
         if (value == null) {
             return false;
         }
@@ -60,7 +61,7 @@ public final class FormatadorCPFCNPJ implements Formatador {
 
         final String desformatado = Formatador.PADRAO_SOMENTE_NUMEROS.matcher(value)
                 .replaceAll("");
-        return desformatado.length() < 12;
+        return desformatado.length() < CPF_TAMANHO_EXCEDENTE;
     }
 
     private static final FormatadorCPFCNPJ INSTANCE = new FormatadorCPFCNPJ();

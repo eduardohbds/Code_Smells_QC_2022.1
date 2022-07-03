@@ -101,7 +101,9 @@ public final class DigitoPara {
      * Ex: 18 => 9 (1+8), 12 => 3 (1+2)
      */
     private int somaDigitos(int total) {
-        return (total / 10) + (total % 10);
+        int div_10 = 10;
+        int mod_10 = 10;
+        return (total / div_10) + (total % mod_10);
     }
 
     /*
