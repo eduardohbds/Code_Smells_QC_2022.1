@@ -18,23 +18,24 @@ public final class FormatadorLinhaDigitavel implements Formatador {
    
     private int aux0 = 0;
     private int aux4 = 4;
-    private int aux11 = 11;
-    private int aux22 = 22;
-    private int aux33 = 33;
-    private int aux44 = 44;
-    private int aux24 = 24;
-    private int aux34 = 34;
-    private int aux19 = 19;
-    private int aux29 = 29;
-    private int aux20 = 20;
-    private int aux32 = 32;
-    private int aux31 = 31;
     private int aux10 = 10;
+    private int aux11 = 11;
+    private int aux19 = 19;
+    private int aux20 = 20;
     private int aux21 = 21;
-    private int aux47 = 47;
-    private int aux36 = 36;
+    private int aux22 = 22;
     private int aux23 = 23;
+    private int aux24 = 24;
+    private int aux29 = 29;
+    private int aux31 = 31;
+    private int aux32 = 32;
+    private int aux33 = 33;
+    private int aux34 = 34;
     private int aux35 = 35;
+    private int aux36 = 36;
+    private int aux44 = 44;
+    private int aux47 = 47;
+    
 
     private FormatadorLinhaDigitavel() {
     }
